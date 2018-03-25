@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1521948796005">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1521950777502">
   <folder name="css">
     <file name="site_global.css" crc="258391933"/>
     <file name="master_a-master.css" crc="494764439" ref="game:concept-design:index:sketching:oil-painting:contact:illustration:drawing:animation"/>
     <file name="nomq_preview_master_a-master.css" crc="4077009997" ref="game:concept-design:index:sketching:oil-painting:contact:illustration:drawing:animation"/>
-    <file name="game.css" crc="41407302" ref="game"/>
-    <file name="nomq_game.css" crc="334756764" ref="game"/>
+    <file name="game.css" crc="422063112" ref="game"/>
+    <file name="nomq_game.css" crc="182664827" ref="game"/>
     <file name="concept-design.css" crc="3820712131" ref="concept-design"/>
     <file name="nomq_concept-design.css" crc="423533028" ref="concept-design"/>
     <file name="index.css" crc="350637910" ref="index"/>
@@ -19,8 +19,8 @@
     <file name="nomq_illustration.css" crc="4143149822" ref="illustration"/>
     <file name="drawing.css" crc="4190015241" ref="drawing"/>
     <file name="nomq_drawing.css" crc="4161609987" ref="drawing"/>
-    <file name="animation.css" crc="3777576230" ref="animation"/>
-    <file name="nomq_animation.css" crc="3852023281" ref="animation"/>
+    <file name="animation.css" crc="419983065" ref="animation"/>
+    <file name="nomq_animation.css" crc="3774882203" ref="animation"/>
   </folder>
   <folder name="assets">
     <file name="resume_kent-kan.doc" crc="342611727" seo="true" mt="1512893840000"/>
@@ -587,13 +587,13 @@
       <caption webpage="concept-design" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4132592156" seo="true" mt="1521946021234" redirect="true"/>
-  <file name="animation.html" crc="42113478" seo="true" mt="1521948737069" redirect="true"/>
-  <file name="drawing.html" crc="3767302721" seo="true" mt="1514381570670" redirect="true"/>
-  <file name="game.html" crc="215344568" seo="true" mt="1521948693017" redirect="true"/>
-  <file name="sketching.html" crc="85936616" seo="true" mt="1514381570670" redirect="true"/>
-  <file name="contact.html" crc="256972191" seo="true" mt="1521942926569" redirect="true"/>
-  <file name="illustration.html" crc="3914327522" seo="true" mt="1514381570670" redirect="true"/>
-  <file name="oil-painting.html" crc="59405767" seo="true" mt="1514381570670" redirect="true"/>
-  <file name="concept-design.html" crc="375597422" seo="true" mt="1521883723439" redirect="true"/>
+  <file name="index.html" crc="221236687" seo="true" mt="1521949762548" redirect="true"/>
+  <file name="animation.html" crc="465908442" seo="true" mt="1521949520477" redirect="true"/>
+  <file name="drawing.html" crc="245338854" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="game.html" crc="3880410523" seo="true" mt="1521950725008" redirect="true"/>
+  <file name="sketching.html" crc="4159646705" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="contact.html" crc="4171301076" seo="true" mt="1521942926569" redirect="true"/>
+  <file name="illustration.html" crc="3984832665" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="oil-painting.html" crc="4127968256" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="concept-design.html" crc="476592928" seo="true" mt="1521883723439" redirect="true"/>
 </manifest>
