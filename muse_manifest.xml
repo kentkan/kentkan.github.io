@@ -1,20 +1,26 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1514017294572">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1521943150991">
   <folder name="css">
-    <file name="site_global.css" crc="4209126863"/>
-    <file name="master_a-master.css" crc="4145441983" ref="index:game:concept-design:drawing:animation:sketching:contact:oil-painting:illustration"/>
-    <file name="index.css" crc="289311589" ref="index"/>
-    <file name="game.css" crc="4116144074" ref="game"/>
-    <file name="concept-design.css" crc="4284031629" ref="concept-design"/>
-    <file name="drawing.css" crc="3893509299" ref="drawing"/>
-    <file name="animation.css" crc="4116144074" ref="animation"/>
-    <file name="sketching.css" crc="386563896" ref="sketching"/>
-    <file name="contact.css" crc="4116144074" ref="contact"/>
-    <file name="oil-painting.css" crc="4265999248" ref="oil-painting"/>
-    <file name="illustration.css" crc="3837668228" ref="illustration"/>
-  </folder>
-  <folder name="assets">
-    <file name="calender_a.tif" crc="3863386581" seo="true" mt="1127186336000"/>
-    <file name="resume_kent-kan.doc" crc="342611727" seo="true" mt="1512893840000"/>
+    <file name="site_global.css" crc="258391933"/>
+    <file name="master_a-master.css" crc="507038564" ref="game:concept-design:index:sketching:oil-painting:contact:illustration:drawing:animation"/>
+    <file name="nomq_preview_master_a-master.css" crc="364262046" ref="game:concept-design:index:sketching:oil-painting:contact:illustration:drawing:animation"/>
+    <file name="game.css" crc="225629680" ref="game"/>
+    <file name="nomq_game.css" crc="64624905" ref="game"/>
+    <file name="concept-design.css" crc="3820712131" ref="concept-design"/>
+    <file name="nomq_concept-design.css" crc="423533028" ref="concept-design"/>
+    <file name="index.css" crc="350637910" ref="index"/>
+    <file name="nomq_index.css" crc="3791853713" ref="index"/>
+    <file name="sketching.css" crc="4194257907" ref="sketching"/>
+    <file name="nomq_sketching.css" crc="4018696944" ref="sketching"/>
+    <file name="oil-painting.css" crc="318626559" ref="oil-painting"/>
+    <file name="nomq_oil-painting.css" crc="259630829" ref="oil-painting"/>
+    <file name="contact.css" crc="371661345" ref="contact"/>
+    <file name="nomq_contact.css" crc="4211335327" ref="contact"/>
+    <file name="illustration.css" crc="3840529303" ref="illustration"/>
+    <file name="nomq_illustration.css" crc="4143149822" ref="illustration"/>
+    <file name="drawing.css" crc="4190015241" ref="drawing"/>
+    <file name="nomq_drawing.css" crc="4161609987" ref="drawing"/>
+    <file name="animation.css" crc="422736023" ref="animation"/>
+    <file name="nomq_animation.css" crc="3803539360" ref="animation"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
@@ -22,55 +28,217 @@
     <file name="whatinput.js" crc="86476730" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
     <file name="museconfig.js" crc="4153641093" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
     <file name="jquery.musemenu.js" crc="3784699396" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:drawing"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:drawing:contact"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="webpro.js" crc="242022427" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
     <file name="require.js" crc="4157109226" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
-    <file name="webpro.js" crc="242022427" ref="sketching:illustration:oil-painting:concept-design"/>
-    <file name="musewpslideshow.js" crc="457073769" ref="sketching:illustration:oil-painting:concept-design"/>
-    <file name="jquery.museoverlay.js" crc="483674903" ref="sketching:illustration:oil-painting:concept-design"/>
-    <file name="touchswipe.js" crc="4066113679" ref="sketching:illustration:oil-painting:concept-design"/>
   </folder>
   <folder name="images">
     <file name="mon2.svg" crc="3999659749" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
-      <caption webpage="contact" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="drawing" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="sketching" alt=""/>
+      <caption webpage="sketching" alt=""/>
+      <caption webpage="sketching" alt=""/>
       <caption webpage="concept-design" alt=""/>
-      <caption webpage="game" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="oil-painting" alt=""/>
-      <caption webpage="sketching" alt=""/>
-      <caption webpage="illustration" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
     <file name="mon2_poster_.png" crc="4173694498" ref="index"/>
     <file name="anim_icon.svg" crc="4072201661" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="anim_icon_poster_.png" crc="322817257" ref="index"/>
     <file name="art_icon.svg" crc="4060584883" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="art_icon_poster_.png" crc="3766477518" ref="index"/>
     <file name="game_icon.svg" crc="3801178150" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="game_icon_poster_.png" crc="4242644353" ref="index"/>
-    <file name="img_0263.jpg" crc="162886726" ref="index">
+    <file name="img_0263.jpg" crc="162886726" ref="index:contact">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
     <file name="mon.svg" crc="130419457" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
-      <caption webpage="contact" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="drawing" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="sketching" alt=""/>
+      <caption webpage="sketching" alt=""/>
+      <caption webpage="sketching" alt=""/>
       <caption webpage="concept-design" alt=""/>
-      <caption webpage="game" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="oil-painting" alt=""/>
-      <caption webpage="sketching" alt=""/>
-      <caption webpage="illustration" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
     </file>
     <file name="mon_poster_.png" crc="3791936493" ref="index"/>
+    <file name="videobg.jpg" crc="4154863943" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="menu.svg" crc="3987062769" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="sketching" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="menu_poster_.png" crc="3920606429" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
+    <file name="anim11.jpg" crc="476985239" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim19.jpg" crc="4265753530" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim22.jpg" crc="3846587534" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim01.jpg" crc="384220339" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim05.jpg" crc="3956506941" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim12.jpg" crc="163746990" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim14.jpg" crc="474431974" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim13.jpg" crc="130081162" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim20.jpg" crc="4239785984" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim23.jpg" crc="4227785597" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim24.jpg" crc="3831344377" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim02.jpg" crc="492566903" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim03.jpg" crc="533402722" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim06.jpg" crc="4140376442" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim07.jpg" crc="496665595" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim15.jpg" crc="320816558" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim21.jpg" crc="398236136" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim16.jpg" crc="469557296" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim04.jpg" crc="4145155950" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
+    <file name="anim08.jpg" crc="428732855" seo="true" ref="animation">
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+    </file>
     <file name="calender_b.jpg" crc="448201801" ref="drawing">
       <caption webpage="drawing" alt=""/>
     </file>
@@ -83,10 +251,69 @@
     <file name="painting01.jpg" crc="86112649" ref="drawing">
       <caption webpage="drawing" alt=""/>
     </file>
+    <file name="game01.jpg" crc="4289720993" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game06.jpg" crc="429826092" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game10.jpg" crc="3785270982" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game02.jpg" crc="3911683309" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game03.jpg" crc="4084409796" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game07.jpg" crc="521767897" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game08.jpg" crc="318281704" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game11.jpg" crc="457160392" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game05.jpg" crc="4266171018" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game04.jpg" crc="232514641" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="game09.jpg" crc="3886217512" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
+    <file name="interact01.jpg" crc="343075957" seo="true" ref="game">
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+    </file>
     <file name="portrait_01-crop-u3249.jpg" crc="471079771" seo="true" ref="sketching">
       <caption webpage="sketching" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="sketching:illustration:oil-painting:concept-design"/>
     <file name="sketch06-crop-u3509.jpg" crc="189527330" seo="true" ref="sketching">
       <caption webpage="sketching" alt=""/>
     </file>
@@ -122,6 +349,7 @@
     </file>
     <file name="sketch14.jpg" crc="3867455432" seo="true" ref="sketching">
       <caption webpage="sketching" alt=""/>
+      <caption webpage="sketching" alt=""/>
     </file>
     <file name="sketch12-crop-u4640.jpg" crc="53765948" seo="true" ref="sketching">
       <caption webpage="sketching" alt=""/>
@@ -133,7 +361,106 @@
       <caption webpage="sketching" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="sketching:illustration:oil-painting:concept-design"/>
+    <file name="portrait_01-crop-u32492.jpg" crc="184279067" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch06-crop-u35092.jpg" crc="4055790412" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch09-crop-u38642.jpg" crc="4219999003" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture01-crop-u35802.jpg" crc="4125428272" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture02-crop-u36002.jpg" crc="3936711431" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture03-crop-u36202.jpg" crc="481092518" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch02-crop-u34552.jpg" crc="51828677" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="oldman01-crop-u33672.jpg" crc="454376851" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch03-crop-u41842.jpg" crc="160414786" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch07-crop-u37522.jpg" crc="265626123" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch08-crop-u42942.jpg" crc="524740633" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch04-crop-u41562.jpg" crc="3914260779" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch12-crop-u46402.jpg" crc="3795850798" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch10-crop-u46982.jpg" crc="58337137" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="s01p-crop-u42682.jpg" crc="3817631410" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="portrait_01-crop-u32493.jpg" crc="4053914059" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch06-crop-u35093.jpg" crc="4207679910" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch09-crop-u38643.jpg" crc="3959006383" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture01-crop-u35803.jpg" crc="3949826200" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture02-crop-u36003.jpg" crc="32548648" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sculpture03-crop-u36203.jpg" crc="4158492008" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch02-crop-u34553.jpg" crc="4260453856" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="oldman01-crop-u33673.jpg" crc="4270091587" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch03-crop-u41843.jpg" crc="121593759" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch07-crop-u37523.jpg" crc="217271960" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch08-crop-u42943.jpg" crc="4171785863" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch04-crop-u41563.jpg" crc="465466544" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch14370x261.jpg" crc="3957346269" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch12-crop-u46403.jpg" crc="321016923" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="sketch10-crop-u46983.jpg" crc="3927612189" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
+    <file name="s01p-crop-u42683.jpg" crc="14964265" seo="true" ref="sketching">
+      <caption webpage="sketching" alt=""/>
+    </file>
     <file name="calender_a-crop-u4480.jpg" crc="3780513663" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="calender_a-crop-u44802.jpg" crc="3858463968" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="calender_a-crop-u44803.jpg" crc="78853497" seo="true" ref="illustration">
       <caption webpage="illustration" alt=""/>
     </file>
     <file name="painting01_l-crop-u5113.jpg" crc="222836808" seo="true" ref="oil-painting">
@@ -146,6 +473,30 @@
       <caption webpage="oil-painting" alt=""/>
     </file>
     <file name="painting04-crop-u5153.jpg" crc="3769065989" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting01_l-crop-u51132.jpg" crc="321266600" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting03-crop-u51332.jpg" crc="367453503" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting02_l-crop-u51802.jpg" crc="528419833" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting04-crop-u51532.jpg" crc="234516577" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting01_l-crop-u51133.jpg" crc="3979345535" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting03-crop-u51333.jpg" crc="339723413" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting02_l-crop-u51803.jpg" crc="491050169" seo="true" ref="oil-painting">
+      <caption webpage="oil-painting" alt=""/>
+    </file>
+    <file name="painting04-crop-u51533.jpg" crc="3843967565" seo="true" ref="oil-painting">
       <caption webpage="oil-painting" alt=""/>
     </file>
     <file name="sketchs_01s-crop-u5234.jpg" crc="397644133" seo="true" ref="concept-design">
@@ -165,6 +516,7 @@
     </file>
     <file name="sketchs_06s.jpg" crc="135422870" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
     </file>
     <file name="sketchs_07s-crop-u5605.jpg" crc="130753639" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
@@ -172,14 +524,59 @@
     <file name="sketchs_08s-crop-u5625.jpg" crc="4254172453" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
     </file>
+    <file name="sketchs_01s-crop-u52342.jpg" crc="371846744" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_02s-crop-u55052.jpg" crc="62221936" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_03s-crop-u55252.jpg" crc="525607877" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_04s-crop-u55452.jpg" crc="4006946298" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_05s-crop-u55652.jpg" crc="211293491" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_07s-crop-u56052.jpg" crc="105390390" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_08s-crop-u56252.jpg" crc="4069433933" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_01s-crop-u52343.jpg" crc="303017810" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_02s-crop-u55053.jpg" crc="511879594" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_03s-crop-u55253.jpg" crc="280031000" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_04s-crop-u55453.jpg" crc="3893401438" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_05s-crop-u55653.jpg" crc="3932011760" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_06s392x285.jpg" crc="135465426" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_07s-crop-u56053.jpg" crc="156488980" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="sketchs_08s-crop-u56253.jpg" crc="441744407" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4134526662" seo="true" mt="1514017082264" redirect="true"/>
-  <file name="animation.html" crc="4249953994" seo="true" mt="1514003905128" redirect="true"/>
-  <file name="drawing.html" crc="317106952" seo="true" mt="1514013830685" redirect="true"/>
-  <file name="game.html" crc="417848621" seo="true" mt="1514003905128" redirect="true"/>
-  <file name="sketching.html" crc="4018488418" seo="true" mt="1514003905128" redirect="true"/>
-  <file name="contact.html" crc="3899761663" seo="true" mt="1514003905128" redirect="true"/>
-  <file name="illustration.html" crc="479822392" seo="true" mt="1514013726630" redirect="true"/>
-  <file name="oil-painting.html" crc="3822278287" seo="true" mt="1514013667302" redirect="true"/>
-  <file name="concept-design.html" crc="3931326145" seo="true" mt="1514014068727" redirect="true"/>
+  <file name="index.html" crc="4071101750" seo="true" mt="1521892484814" redirect="true"/>
+  <file name="animation.html" crc="4055232592" seo="true" mt="1521943061373" redirect="true"/>
+  <file name="drawing.html" crc="50007323" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="game.html" crc="358611296" seo="true" mt="1521939251632" redirect="true"/>
+  <file name="sketching.html" crc="270376415" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="contact.html" crc="266065945" seo="true" mt="1521942926569" redirect="true"/>
+  <file name="illustration.html" crc="420337695" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="oil-painting.html" crc="4128407711" seo="true" mt="1514381570670" redirect="true"/>
+  <file name="concept-design.html" crc="3994608677" seo="true" mt="1521883723439" redirect="true"/>
 </manifest>
