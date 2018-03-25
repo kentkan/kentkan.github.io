@@ -1,0 +1,402 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 533,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 0,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "exp01",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "0"
+									}
+								],
+								"time": 41
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "0"
+									}
+								],
+								"time": 123
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "0"
+									}
+								],
+								"time": 205
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "0"
+									}
+								],
+								"time": 328
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									}
+								],
+								"time": 410
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "0"
+									}
+								],
+								"time": 492
+							}
+						]
+					},
+					"name": "exp00",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"c1": 0.270869,
+									"c2": 0.5023,
+									"c3": 0.621806,
+									"c4": 0.995349,
+									"curve_type": "bezier",
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0
+									},
+									"spin": 0
+								}
+							],
+							"name": "exp01",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 41
+								}
+							],
+							"name": "exp02",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 123
+								}
+							],
+							"name": "exp03",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 205
+								}
+							],
+							"name": "exp04",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 328
+								}
+							],
+							"name": "exp05",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 410
+								}
+							],
+							"name": "exp06",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0
+									},
+									"spin": 0,
+									"time": 492
+								}
+							],
+							"name": "exp07",
+							"obj": 6
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "explose",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp01",
+					"realname": "exp01",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp02",
+					"realname": "exp02",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp03",
+					"realname": "exp03",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp04",
+					"realname": "exp04",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp05",
+					"realname": "exp05",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp06",
+					"realname": "exp06",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "explose_exp07",
+					"realname": "exp07",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 512,
+					"id": 0,
+					"name": "spaceship/explosion/exp01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 1,
+					"name": "spaceship/explosion/exp02.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 2,
+					"name": "spaceship/explosion/exp03.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 3,
+					"name": "spaceship/explosion/exp04.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 4,
+					"name": "spaceship/explosion/exp05.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 5,
+					"name": "spaceship/explosion/exp06.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				},
+				{
+					"height": 512,
+					"id": 6,
+					"name": "spaceship/explosion/exp07.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 512
+				}
+			],
+			"id": 0,
+			"name": "spaceship/explosion"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r2",
+	"scon_version": "1.0"
+}

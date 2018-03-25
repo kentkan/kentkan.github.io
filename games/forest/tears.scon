@@ -1,0 +1,1239 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 41,
+					"length": 656,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 125.38778100000002,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -1.55891,
+										"abs_y": -0.655215,
+										"file": 8,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "rab_tear",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 82
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "2"
+									}
+								],
+								"time": 164
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "3"
+									}
+								],
+								"time": 246
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "4"
+									}
+								],
+								"time": 328
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "5"
+									}
+								],
+								"time": 410
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 0,
+										"timeline": "6",
+										"z_index": "6"
+									}
+								],
+								"time": 492
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 7,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 3,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "6"
+									}
+								],
+								"time": 574
+							},
+							{
+								"bone_ref": [],
+								"curve_type": "instant",
+								"id": 8,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 8,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 7,
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"timeline": "2",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"timeline": "3",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 4,
+										"timeline": "4",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 2,
+										"timeline": "6",
+										"z_index": "6"
+									}
+								],
+								"time": 656
+							}
+						]
+					},
+					"name": "drop",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 82
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 164
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.7,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.6,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.4,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.2,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 8,
+									"object": {
+										"a": 0,
+										"angle": 125.38778100000002,
+										"file": 8,
+										"folder": 0,
+										"x": -1.55891,
+										"y": 0.655215
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 82
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 164
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.7,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.5,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.3,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.2,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 7,
+									"object": {
+										"a": 0,
+										"angle": 106.85839900000002,
+										"file": 8,
+										"folder": 0,
+										"x": 22.757129,
+										"y": 19.170984
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_000",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 164
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.8,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.6,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.4,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.3,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 6,
+									"object": {
+										"a": 0.2,
+										"angle": 91.425276,
+										"file": 8,
+										"folder": 0,
+										"x": 53.689454,
+										"y": 27.746958
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_001",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.9,
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.7,
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.5,
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.4,
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 5,
+									"object": {
+										"a": 0.3,
+										"angle": 66.57130699999999,
+										"file": 8,
+										"folder": 0,
+										"x": 88.636364,
+										"y": 24.621212
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_002",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 36.60707500000001,
+										"file": 8,
+										"folder": 0,
+										"x": 117.424242,
+										"y": 8.712121
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.8,
+										"angle": 36.60707500000001,
+										"file": 8,
+										"folder": 0,
+										"x": 117.424242,
+										"y": 8.712121
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.6,
+										"angle": 36.60707500000001,
+										"file": 8,
+										"folder": 0,
+										"x": 117.424242,
+										"y": 8.712121
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.5,
+										"angle": 36.60707500000001,
+										"file": 8,
+										"folder": 0,
+										"x": 117.424242,
+										"y": 8.712121
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 4,
+									"object": {
+										"a": 0.4,
+										"angle": 36.60707500000001,
+										"file": 8,
+										"folder": 0,
+										"x": 117.424242,
+										"y": 8.712121
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_003",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"a": 0.9,
+										"angle": 17.927919999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 138.461538,
+										"y": -19.909502
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.8,
+										"angle": 17.927919999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 138.461538,
+										"y": -19.909502
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.6,
+										"angle": 17.927919999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 138.461538,
+										"y": -19.909502
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 3,
+									"object": {
+										"a": 0.5,
+										"angle": 17.927919999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 138.00905,
+										"y": -19.909502
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_004",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 9.462321999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 149.773756,
+										"y": -50.678733
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 1,
+									"object": {
+										"a": 0.8,
+										"angle": 9.462321999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 149.773756,
+										"y": -50.678733
+									},
+									"spin": 0,
+									"time": 574
+								},
+								{
+									"id": 2,
+									"object": {
+										"a": 0.6,
+										"angle": 9.462321999999972,
+										"file": 8,
+										"folder": 0,
+										"x": 149.773756,
+										"y": -50.678733
+									},
+									"spin": 0,
+									"time": 656
+								}
+							],
+							"name": "rab_tear_005",
+							"obj": 6
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "tears",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear",
+					"realname": "rab_tear",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_000",
+					"realname": "rab_tear_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_001",
+					"realname": "rab_tear_001",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_002",
+					"realname": "rab_tear_002",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_003",
+					"realname": "rab_tear_003",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_004",
+					"realname": "rab_tear_004",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "tears_rab_tear_005",
+					"realname": "rab_tear_005",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 67,
+					"id": 0,
+					"name": "rabbit/rab_body.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.3134330000000001,
+					"width": 64
+				},
+				{
+					"height": 80,
+					"id": 1,
+					"name": "rabbit/rab_ear.png",
+					"pivot_x": 0.254237,
+					"pivot_y": 0.19999999999999996,
+					"width": 59
+				},
+				{
+					"height": 53,
+					"id": 2,
+					"name": "rabbit/rab_eye00.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 51
+				},
+				{
+					"height": 119,
+					"id": 3,
+					"name": "rabbit/rab_head00.png",
+					"pivot_x": 0.589552,
+					"pivot_y": 0.142857,
+					"width": 134
+				},
+				{
+					"height": 129,
+					"id": 4,
+					"name": "rabbit/rab_head01.png",
+					"pivot_x": 0.544776,
+					"pivot_y": 0.209302,
+					"width": 134
+				},
+				{
+					"height": 43,
+					"id": 5,
+					"name": "rabbit/rab_month01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 58
+				},
+				{
+					"height": 35,
+					"id": 6,
+					"name": "rabbit/rab_month00.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 45
+				},
+				{
+					"height": 28,
+					"id": 7,
+					"name": "rabbit/rab_shadow.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 97
+				},
+				{
+					"height": 23,
+					"id": 8,
+					"name": "rabbit/rab_tear.png",
+					"pivot_x": 0.5,
+					"pivot_y": 1,
+					"width": 12
+				},
+				{
+					"height": 66,
+					"id": 9,
+					"name": "rabbit/rab_bot .png",
+					"pivot_x": 0.522876,
+					"pivot_y": 0.36363600000000007,
+					"width": 153
+				},
+				{
+					"height": 33,
+					"id": 10,
+					"name": "rabbit/rab_arm00.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 38
+				},
+				{
+					"height": 38,
+					"id": 11,
+					"name": "rabbit/rab_arm01.png",
+					"pivot_x": 0.789474,
+					"pivot_y": 0.684211,
+					"width": 57
+				},
+				{
+					"height": 85,
+					"id": 12,
+					"name": "rabbit/rab_hat00.png",
+					"pivot_x": 0.419355,
+					"pivot_y": 0.294118,
+					"width": 93
+				},
+				{
+					"height": 86,
+					"id": 13,
+					"name": "rabbit/rab_hat01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 108
+				},
+				{
+					"height": 38,
+					"id": 14,
+					"name": "rabbit/rab_leg.png",
+					"pivot_x": 0.481481,
+					"pivot_y": 0.710526,
+					"width": 27
+				},
+				{
+					"height": 33,
+					"id": 15,
+					"name": "rabbit/rab_arm03.png",
+					"pivot_x": 0.32,
+					"pivot_y": 0.545455,
+					"width": 25
+				},
+				{
+					"height": 20,
+					"id": 16,
+					"name": "rabbit/rab_eye01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 34
+				},
+				{
+					"height": 26,
+					"id": 17,
+					"name": "rabbit/rab_eye02.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 32
+				},
+				{
+					"height": 40,
+					"id": 18,
+					"name": "rabbit/rab_arm02.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 45
+				},
+				{
+					"height": 53,
+					"id": 19,
+					"name": "rabbit/rab_shock.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 57
+				}
+			],
+			"id": 0,
+			"name": "rabbit"
+		},
+		{
+			"file": [
+				{
+					"height": 756,
+					"id": 0,
+					"name": "bgTemp.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 1344
+				}
+			],
+			"id": 1
+		},
+		{
+			"file": [
+				{
+					"height": 463,
+					"id": 0,
+					"name": "props/ladder.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 206
+				},
+				{
+					"height": 350,
+					"id": 1,
+					"name": "props/bot.png",
+					"pivot_x": 0.500763,
+					"pivot_y": 0.08285699999999996,
+					"width": 655
+				},
+				{
+					"height": 311,
+					"id": 2,
+					"name": "props/spoon.png",
+					"pivot_x": 0.851485,
+					"pivot_y": 0.881029,
+					"width": 101
+				}
+			],
+			"id": 2,
+			"name": "props"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r2",
+	"scon_version": "1.0"
+}
