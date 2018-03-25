@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://kentkan.cf/index.html</loc>
-    <lastmod>2018-03-24</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -22,147 +22,6 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/animation.html</loc>
-    <lastmod>2018-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim11.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim19.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim22.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim05.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim12.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim14.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim13.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim20.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim23.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim24.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim02.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim03.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim06.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim07.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim15.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim21.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim16.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim04.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/anim08.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/drawing.html</loc>
-    <lastmod>2017-12-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/game.html</loc>
-    <lastmod>2018-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game06.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game10.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game02.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game03.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game07.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game08.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game11.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game05.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game04.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/game09.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/interact01.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -322,7 +181,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/contact.html</loc>
+    <loc>http://kentkan.cf/animation.html</loc>
     <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -334,6 +193,132 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim11.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim19.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim22.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim12.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim14.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim13.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim20.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim23.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim24.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim15.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim21.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim16.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/anim08.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/drawing.html</loc>
+    <lastmod>2017-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/game.html</loc>
+    <lastmod>2018-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game10.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game08.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game11.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/game09.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/interact01.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -358,6 +343,21 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/calender_a-crop-u44803.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/contact.html</loc>
+    <lastmod>2018-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
     </image:image>
   </url>
   <url>
@@ -494,5 +494,11 @@
     <image:image>
       <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u56253.jpg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/assets/resume_kent-kan.doc</loc>
+    <lastmod>2017-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
