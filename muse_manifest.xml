@@ -1,26 +1,26 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1521970386610">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1522062783163">
   <folder name="css">
-    <file name="site_global.css" crc="258391933"/>
-    <file name="master_a-master.css" crc="4103421877" ref="oil-painting:animation:drawing:illustration:index:sketching:concept-design:contact:game"/>
-    <file name="nomq_preview_master_a-master.css" crc="364262046" ref="oil-painting:animation:drawing:illustration:index:sketching:concept-design:contact:game"/>
-    <file name="oil-painting.css" crc="66103537" ref="oil-painting"/>
-    <file name="nomq_oil-painting.css" crc="3765126696" ref="oil-painting"/>
-    <file name="animation.css" crc="4129806544" ref="animation"/>
+    <file name="site_global.css" crc="134479858"/>
+    <file name="master_a-master.css" crc="357606137" ref="animation:illustration:game:sketching:oil-painting:concept-design:contact:index:drawing"/>
+    <file name="nomq_preview_master_a-master.css" crc="364262046" ref="animation:illustration:game:sketching:oil-painting:concept-design:contact:index:drawing"/>
+    <file name="animation.css" crc="273291216" ref="animation"/>
     <file name="nomq_animation.css" crc="4050089864" ref="animation"/>
-    <file name="drawing.css" crc="449696448" ref="drawing"/>
-    <file name="nomq_drawing.css" crc="4161609987" ref="drawing"/>
-    <file name="illustration.css" crc="305206145" ref="illustration"/>
-    <file name="nomq_illustration.css" crc="409726548" ref="illustration"/>
-    <file name="index.css" crc="265994302" ref="index"/>
-    <file name="nomq_index.css" crc="3938631678" ref="index"/>
-    <file name="sketching.css" crc="270056666" ref="sketching"/>
-    <file name="nomq_sketching.css" crc="3858906895" ref="sketching"/>
-    <file name="concept-design.css" crc="3983482599" ref="concept-design"/>
-    <file name="nomq_concept-design.css" crc="423533028" ref="concept-design"/>
-    <file name="contact.css" crc="508364244" ref="contact"/>
-    <file name="nomq_contact.css" crc="516715911" ref="contact"/>
-    <file name="game.css" crc="4080720671" ref="game"/>
+    <file name="illustration.css" crc="3763533994" ref="illustration"/>
+    <file name="nomq_illustration.css" crc="3784808696" ref="illustration"/>
+    <file name="game.css" crc="432420046" ref="game"/>
     <file name="nomq_game.css" crc="166659033" ref="game"/>
+    <file name="sketching.css" crc="102331495" ref="sketching"/>
+    <file name="nomq_sketching.css" crc="3858906895" ref="sketching"/>
+    <file name="oil-painting.css" crc="4280175613" ref="oil-painting"/>
+    <file name="nomq_oil-painting.css" crc="3765126696" ref="oil-painting"/>
+    <file name="concept-design.css" crc="97233572" ref="concept-design"/>
+    <file name="nomq_concept-design.css" crc="310029218" ref="concept-design"/>
+    <file name="contact.css" crc="4019035747" ref="contact"/>
+    <file name="nomq_contact.css" crc="516715911" ref="contact"/>
+    <file name="index.css" crc="353486955" ref="index"/>
+    <file name="nomq_index.css" crc="4207560296" ref="index"/>
+    <file name="drawing.css" crc="38340570" ref="drawing"/>
+    <file name="nomq_drawing.css" crc="320263282" ref="drawing"/>
   </folder>
   <folder name="assets">
     <file name="resume_kent-kan.doc" crc="342611727" seo="true" mt="1512893840000"/>
@@ -43,33 +43,33 @@
   </folder>
   <folder name="images">
     <file name="mon2.svg" crc="3999659749" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="drawing" alt=""/>
-      <caption webpage="drawing" alt=""/>
-      <caption webpage="drawing" alt=""/>
       <caption webpage="sketching" alt=""/>
       <caption webpage="sketching" alt=""/>
       <caption webpage="sketching" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
     </file>
     <file name="mon2_poster_.png" crc="4173694498" ref="index"/>
     <file name="anim_icon.svg" crc="4072201661" seo="true" ref="index">
@@ -92,37 +92,36 @@
     <file name="game_icon_poster_.png" crc="4242644353" ref="index"/>
     <file name="img_0263.jpg" crc="162886726" ref="index:contact">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
     <file name="mon.svg" crc="130419457" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="drawing" alt=""/>
-      <caption webpage="drawing" alt=""/>
-      <caption webpage="drawing" alt=""/>
       <caption webpage="sketching" alt=""/>
       <caption webpage="sketching" alt=""/>
       <caption webpage="sketching" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
     </file>
     <file name="mon_poster_.png" crc="3791936493" ref="index"/>
     <file name="videobg.jpg" crc="4154863943" ref="index">
@@ -130,15 +129,15 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="menu.svg" crc="3987062769" seo="true" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design">
-      <caption webpage="oil-painting" alt=""/>
-      <caption webpage="game" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="concept-design" alt=""/>
-      <caption webpage="illustration" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="animation" alt=""/>
-      <caption webpage="drawing" alt=""/>
       <caption webpage="sketching" alt=""/>
+      <caption webpage="game" alt=""/>
+      <caption webpage="drawing" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="animation" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="oil-painting" alt=""/>
+      <caption webpage="illustration" alt=""/>
     </file>
     <file name="menu_poster_.png" crc="3920606429" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:animation:drawing:game:sketching:contact:illustration:oil-painting:concept-design"/>
@@ -224,8 +223,10 @@
     <file name="sketch01.jpg" crc="323730162" ref="drawing">
       <caption webpage="drawing" alt=""/>
     </file>
-    <file name="snapshot_04.jpg" crc="4012800684" ref="drawing">
+    <file name="snapshot_04.jpg" crc="4012800684" seo="true" ref="drawing:illustration">
       <caption webpage="drawing" alt=""/>
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
     </file>
     <file name="painting01.jpg" crc="86112649" ref="drawing">
       <caption webpage="drawing" alt=""/>
@@ -420,10 +421,69 @@
     <file name="calender_a-crop-u4480.jpg" crc="3780513663" seo="true" ref="illustration">
       <caption webpage="illustration" alt=""/>
     </file>
+    <file name="snapshot_03.jpg" crc="337139140" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_01.png" crc="295485062" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_02.png" crc="45880586" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_03.png" crc="3907689509" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_04.png" crc="318812994" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_05.png" crc="4155078094" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_06.png" crc="410268464" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_07.png" crc="3845101970" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+      <caption webpage="illustration" alt=""/>
+    </file>
     <file name="calender_a-crop-u44802.jpg" crc="3858463968" seo="true" ref="illustration">
       <caption webpage="illustration" alt=""/>
     </file>
     <file name="calender_a-crop-u44803.jpg" crc="78853497" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="snapshot_04577x324.jpg" crc="3887036901" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="snapshot_03480x270.jpg" crc="165207953" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_01577x324.png" crc="3905619448" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_02577x324.png" crc="45880586" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_03577x324.png" crc="4133879719" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_04577x324.png" crc="4118125001" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_05577x324.png" crc="250958180" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_06577x324.png" crc="4009261663" seo="true" ref="illustration">
+      <caption webpage="illustration" alt=""/>
+    </file>
+    <file name="ill_07577x324.png" crc="433045740" seo="true" ref="illustration">
       <caption webpage="illustration" alt=""/>
     </file>
     <file name="painting01_l-crop-u5113.jpg" crc="222836808" seo="true" ref="oil-painting">
@@ -487,6 +547,22 @@
     <file name="sketchs_08s-crop-u5625.jpg" crc="4254172453" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
     </file>
+    <file name="3dmodel_01.jpg" crc="4136390662" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_02.png" crc="3996387194" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_03.png" crc="80917099" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_04.png" crc="4239429643" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+      <caption webpage="concept-design" alt=""/>
+    </file>
     <file name="sketchs_01s-crop-u52342.jpg" crc="371846744" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
     </file>
@@ -532,14 +608,26 @@
     <file name="sketchs_08s-crop-u56253.jpg" crc="441744407" seo="true" ref="concept-design">
       <caption webpage="concept-design" alt=""/>
     </file>
+    <file name="3dmodel_01577x324.jpg" crc="3951707186" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_02577x324.png" crc="359088259" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_03577x324.png" crc="4070431239" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
+    <file name="3dmodel_04577x324.png" crc="492546640" seo="true" ref="concept-design">
+      <caption webpage="concept-design" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="110045473" seo="true" mt="1521970315876" redirect="true"/>
-  <file name="animation.html" crc="4159738142" seo="true" mt="1521970139558" redirect="true"/>
-  <file name="drawing.html" crc="3795246329" seo="true" mt="1521957379455" redirect="true"/>
-  <file name="game.html" crc="309114881" seo="true" mt="1521970251559" redirect="true"/>
-  <file name="sketching.html" crc="4258300973" seo="true" mt="1521969328744" redirect="true"/>
-  <file name="contact.html" crc="3784971237" seo="true" mt="1521957430941" redirect="true"/>
-  <file name="illustration.html" crc="463687344" seo="true" mt="1521958956756" redirect="true"/>
-  <file name="oil-painting.html" crc="100936595" seo="true" mt="1521958976258" redirect="true"/>
-  <file name="concept-design.html" crc="4057182820" seo="true" mt="1521957379455" redirect="true"/>
+  <file name="index.html" crc="111778951" seo="true" mt="1521989270457" redirect="true"/>
+  <file name="animation.html" crc="88489173" seo="true" mt="1521970139558" redirect="true"/>
+  <file name="drawing.html" crc="3959364701" seo="true" mt="1521982417725" redirect="true"/>
+  <file name="game.html" crc="3794498784" seo="true" mt="1521970251559" redirect="true"/>
+  <file name="sketching.html" crc="4010847104" seo="true" mt="1521969328744" redirect="true"/>
+  <file name="contact.html" crc="185383606" seo="true" mt="1521957430941" redirect="true"/>
+  <file name="illustration.html" crc="498006584" seo="true" mt="1522061821696" redirect="true"/>
+  <file name="oil-painting.html" crc="3812377430" seo="true" mt="1521958976258" redirect="true"/>
+  <file name="concept-design.html" crc="3796182426" seo="true" mt="1522062733356" redirect="true"/>
 </manifest>

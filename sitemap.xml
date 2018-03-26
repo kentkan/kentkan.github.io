@@ -209,6 +209,9 @@
     <image:image>
       <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/snapshot_04.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://kentkan.cf/game.html</loc>
@@ -227,7 +230,7 @@
   </url>
   <url>
     <loc>http://kentkan.cf/illustration.html</loc>
-    <lastmod>2018-03-25</lastmod>
+    <lastmod>2018-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -240,13 +243,67 @@
       <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>http://kentkan.cf/images/snapshot_04.jpg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://kentkan.cf/images/calender_a-crop-u4480.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/snapshot_03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_01.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_04.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_05.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_06.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_07.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/calender_a-crop-u44802.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/calender_a-crop-u44803.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/snapshot_04577x324.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/snapshot_03480x270.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_01577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_02577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_03577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_04577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_05577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_06577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/ill_07577x324.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -317,7 +374,7 @@
   </url>
   <url>
     <loc>http://kentkan.cf/concept-design.html</loc>
-    <lastmod>2018-03-25</lastmod>
+    <lastmod>2018-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -352,6 +409,18 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u5625.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_04.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/sketchs_01s-crop-u52342.jpg</image:loc>
@@ -397,6 +466,18 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u56253.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_01577x324.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_02577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_03577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/3dmodel_04577x324.png</image:loc>
     </image:image>
   </url>
   <url>
