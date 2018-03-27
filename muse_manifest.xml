@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1522159957424">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://kentkan.cf" resolutions="1x" timestamp="1522160084874">
   <folder name="css">
     <file name="site_global.css" crc="258391933"/>
     <file name="master_a-master.css" crc="3908398100" ref="drawing:game:index:contact:oil-painting:illustration:animation:concept-design:sketching"/>
@@ -621,13 +621,13 @@
       <caption webpage="concept-design" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4153500035" seo="true" mt="1522159881130" redirect="true"/>
-  <file name="animation.html" crc="4293915034" seo="true" mt="1521970139558" redirect="true"/>
-  <file name="drawing.html" crc="217631053" seo="true" mt="1522074090047" redirect="true"/>
-  <file name="game.html" crc="354360844" seo="true" mt="1521970251559" redirect="true"/>
-  <file name="sketching.html" crc="4249825758" seo="true" mt="1521969328744" redirect="true"/>
-  <file name="contact.html" crc="3774473518" seo="true" mt="1521957430941" redirect="true"/>
-  <file name="illustration.html" crc="4066081002" seo="true" mt="1522061821696" redirect="true"/>
-  <file name="oil-painting.html" crc="526385041" seo="true" mt="1521958976258" redirect="true"/>
-  <file name="concept-design.html" crc="262351251" seo="true" mt="1522062733356" redirect="true"/>
+  <file name="index.html" crc="4262539170" seo="true" mt="1522160049287" redirect="true"/>
+  <file name="animation.html" crc="62027571" seo="true" mt="1521970139558" redirect="true"/>
+  <file name="drawing.html" crc="179551139" seo="true" mt="1522074090047" redirect="true"/>
+  <file name="game.html" crc="3994920760" seo="true" mt="1521970251559" redirect="true"/>
+  <file name="sketching.html" crc="30436123" seo="true" mt="1521969328744" redirect="true"/>
+  <file name="contact.html" crc="9923646" seo="true" mt="1521957430941" redirect="true"/>
+  <file name="illustration.html" crc="4285647692" seo="true" mt="1522061821696" redirect="true"/>
+  <file name="oil-painting.html" crc="35453546" seo="true" mt="1521958976258" redirect="true"/>
+  <file name="concept-design.html" crc="3986958334" seo="true" mt="1522062733356" redirect="true"/>
 </manifest>
