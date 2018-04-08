@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://kentkan.cf/index.html</loc>
-    <lastmod>2018-03-27</lastmod>
+    <lastmod>2018-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -16,6 +16,21 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/game_icon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/game.html</loc>
+    <lastmod>2018-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
@@ -214,21 +229,6 @@
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/game.html</loc>
-    <lastmod>2018-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>http://kentkan.cf/illustration.html</loc>
     <lastmod>2018-03-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,21 +307,6 @@
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/contact.html</loc>
-    <lastmod>2018-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>http://kentkan.cf/oil-painting.html</loc>
     <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -370,6 +355,21 @@
     </image:image>
     <image:image>
       <image:loc>http://kentkan.cf/images/painting04-crop-u51533.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/contact.html</loc>
+    <lastmod>2018-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
     </image:image>
   </url>
   <url>
@@ -479,6 +479,12 @@
     <image:image>
       <image:loc>http://kentkan.cf/images/3dmodel_04577x324.png</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://kentkan.cf/assets/resume_kent-kan_080418.doc</loc>
+    <lastmod>2018-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>http://kentkan.cf/assets/resume_kent-kan.doc</loc>
