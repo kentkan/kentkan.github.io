@@ -7,6 +7,9 @@
 	var RTCSessionDescription = window["RTCSessionDescription"] || window["webkitRTCSessionDescription"] || window["mozRTCSessionDescription"] || window["msRTCSessionDescription"];
 	var RTCIceCandidate = window["RTCIceCandidate"] || window["webkitRTCIceCandidate"] || window["mozRTCIceCandidate"] || window["msRTCIceCandidate"];
 	
+	// Note Firefox uses name DataChannel instead of RTCDataChannel. See https://bugzilla.mozilla.org/show_bug.cgi?id=1173851
+	var RTCDataChannel = window["RTCDataChannel"] || window["DataChannel"] || window["webkitRTCDataChannel"] || window["mozRTCDataChannel"] || window["msRTCDataChannel"];
+	
 	var Peer = window["C2Peer"];
 	var RegisteredObject = window["C2RegisteredObject"];
 	var NetValue = window["C2NetValue"];
@@ -27,7 +30,8 @@
 	
 	window["C2Multiplayer_IsSupported"] = function ()
 	{
-		return !!RTCPeerConnection && typeof ArrayBuffer !== "undefined" && typeof DataView !== "undefined";
+		// Note Edge 16 supports RTCPeerConnection but not RTCDataChannel, so check for that too
+		return !!RTCPeerConnection && !!RTCDataChannel && typeof ArrayBuffer !== "undefined" && typeof DataView !== "undefined";
 	};
 	
 	// Multiplayer object
