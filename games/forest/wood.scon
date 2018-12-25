@@ -1,0 +1,865 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 41,
+					"length": 1000,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.148352,
+										"abs_pivot_y": 0.12371100000000002,
+										"abs_scale_x": -1,
+										"abs_scale_y": 1,
+										"abs_x": 244.196721,
+										"abs_y": -820,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "wood00_000",
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.148352,
+										"abs_pivot_y": 0.12371100000000002,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -230.469945,
+										"abs_y": -820,
+										"file": 1,
+										"folder": 1,
+										"id": 1,
+										"key": 0,
+										"name": "wood00",
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.524752,
+										"abs_pivot_y": 0.10752700000000004,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -130.866819,
+										"abs_y": -820,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "wood01",
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.524752,
+										"abs_pivot_y": 0.10752700000000004,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -52,
+										"abs_y": -820,
+										"file": 0,
+										"folder": 1,
+										"id": 3,
+										"key": 0,
+										"name": "wood01_000",
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.524752,
+										"abs_pivot_y": 0.10752700000000004,
+										"abs_scale_x": -1,
+										"abs_scale_y": 1,
+										"abs_x": 33,
+										"abs_y": -820,
+										"file": 0,
+										"folder": 1,
+										"id": 4,
+										"key": 0,
+										"name": "wood01_001",
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.524752,
+										"abs_pivot_y": 0.10752700000000004,
+										"abs_scale_x": -1,
+										"abs_scale_y": 1,
+										"abs_x": 126.863388,
+										"abs_y": -820,
+										"file": 0,
+										"folder": 1,
+										"id": 5,
+										"key": 0,
+										"name": "wood01_002",
+										"timeline": "3",
+										"z_index": "5"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 82
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 164
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 246
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 328
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 410
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 492
+							},
+							{
+								"bone_ref": [],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "4",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "5"
+									}
+								],
+								"time": 574
+							}
+						]
+					},
+					"name": "fall",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -130.866819,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -130.866819,
+										"y": 820
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -134.866819,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -134.86682,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood01",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -52,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -52,
+										"y": 820
+									},
+									"spin": 0,
+									"time": 82
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -52,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"x": -52,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood01_000",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 33,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 33,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 164
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 33,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood01_001",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 126.863388,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 126.863388,
+										"y": 820
+									},
+									"spin": 0,
+									"time": 164
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 126.863388,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 126.863388,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood01_002",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -230.469945,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -230.469945,
+										"y": 820
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -230.469945,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"x": -230.469945,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood00",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 244.196721,
+										"y": 820
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 244.196721,
+										"y": 820
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 244.196721,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 492
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 1,
+										"scale_x": -1,
+										"x": 244.196721,
+										"y": -30
+									},
+									"spin": 0,
+									"time": 574
+								}
+							],
+							"name": "wood00_000",
+							"obj": 5
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "wood",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood01",
+					"realname": "wood01",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood01_000",
+					"realname": "wood01_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood01_001",
+					"realname": "wood01_001",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood01_002",
+					"realname": "wood01_002",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood00",
+					"realname": "wood00",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "wood_wood00_000",
+					"realname": "wood00_000",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 756,
+					"id": 0,
+					"name": "bgTemp.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 1344
+				}
+			],
+			"id": 0
+		},
+		{
+			"file": [
+				{
+					"height": 93,
+					"id": 0,
+					"name": "props/wood01.png",
+					"pivot_x": 0.524752,
+					"pivot_y": 0.10752700000000004,
+					"width": 101
+				},
+				{
+					"height": 97,
+					"id": 1,
+					"name": "props/wood00.png",
+					"pivot_x": 0.148352,
+					"pivot_y": 0.12371100000000002,
+					"width": 182
+				}
+			],
+			"id": 1,
+			"name": "props"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r2",
+	"scon_version": "1.0"
+}

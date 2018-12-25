@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r6">
+    <folder id="0">
+        <file id="0" name="vine.png" width="108" height="625" pivot_x="0.5" pivot_y="0"/>
+        <file id="1" name="answer.png" width="293" height="295" pivot_x="0.474403" pivot_y="0.898305"/>
+        <file id="2" name="eye_brose.png" width="9" height="7" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="eye.png" width="5" height="5" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="deer_leg.png" width="86" height="119" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="deer_head.png" width="243" height="203" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="deer_hand.png" width="90" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="answer_C.png" width="147" height="148" pivot_x="0.467577" pivot_y="0.911864"/>
+        <file id="8" name="answer_B.png" width="147" height="148" pivot_x="0.481229" pivot_y="0.918644"/>
+        <file id="9" name="answer_A.png" width="147" height="148" pivot_x="0.481229" pivot_y="0.915254"/>
+        <file id="10" name="answer_D.png" width="147" height="148" pivot_x="0.481229" pivot_y="0.925424"/>
+        <file id="11" name="cloud_nose.png" width="67" height="54" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="cloud_eyebrose.png" width="67" height="17" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="cloud_body.png" width="486" height="335" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="bat_face_2.png" width="112" height="105" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="bat_face_1.png" width="81" height="95" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="bat.png" width="192" height="223" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="bat wing.png" width="190" height="115" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="cloud_eye_2.png" width="53" height="26" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="bird_wing_2.png" width="62" height="45" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="bird_body.png" width="182" height="185" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="cloud_mouth_3.png" width="72" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="cloud_eye.png" width="17" height="31" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="bird_wing_1.png" width="61" height="51" pivot_x="0" pivot_y="1"/>
+        <file id="24" name="bee_wing.png" width="15" height="20" pivot_x="0" pivot_y="1"/>
+        <file id="25" name="bat_face_3.png" width="112" height="150" pivot_x="0" pivot_y="1"/>
+        <file id="26" name="deer_body.png" width="132" height="202" pivot_x="0" pivot_y="1"/>
+        <file id="27" name="bird_hair.png" width="33" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="28" name="girl_eye.png" width="88" height="52" pivot_x="0" pivot_y="1"/>
+        <file id="29" name="birl_tail_1.png" width="34" height="13" pivot_x="0" pivot_y="1"/>
+        <file id="30" name="bird_leg.png" width="45" height="40" pivot_x="0" pivot_y="1"/>
+        <file id="31" name="bee.png" width="86" height="72" pivot_x="0" pivot_y="1"/>
+        <file id="32" name="bird_tail_2.png" width="40" height="26" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="ans">
+        <obj_info name="ans_vine" realname="vine" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="ans_bone_000" realname="bone_000" type="bone" w="620" h="10"/>
+        <animation id="0" name="react" length="500" interval="41" looping="false">
+            <mainline>
+                <key id="0" curve_type="bezier" c1="0.3333" c2="0.3333" c3="0.6456" c4="0.995392">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" name="vine" folder="0" file="0" abs_x="-54" abs_y="605" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="164">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="246" curve_type="bezier" c1="0.3333" c2="0.3333" c3="0.5624" c4="0.995392">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="492">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="vine">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-20" y="0" angle="270"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone angle="90"/>
+                </key>
+                <key id="1" time="164" spin="0">
+                    <bone y="-100" angle="90"/>
+                </key>
+                <key id="2" time="246" spin="0">
+                    <bone y="200" angle="90"/>
+                </key>
+                <key id="3" time="492" spin="0">
+                    <bone y="300" angle="90"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

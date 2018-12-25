@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0" name="flower">
+        <file id="0" name="flower/flower1.png" width="90" height="66" pivot_x="1" pivot_y="0.5"/>
+        <file id="1" name="flower/flower0.png" width="62" height="96" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="flower">
+        <obj_info name="flower_bone_000" realname="bone_000" type="bone" w="114" h="10"/>
+        <obj_info name="flower_bone_001" realname="bone_001" type="bone" w="50.1927" h="10"/>
+        <obj_info name="flower_flower1" realname="flower1" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="flower_flower0" realname="flower0" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="glow" length="700" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="0"/>
+                    <object_ref id="0" parent="0" name="flower1" folder="0" file="0" abs_x="8.201261" abs_y="0.523512" abs_angle="270" abs_scale_x="0.026298" abs_scale_y="0.2" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" name="flower0" folder="0" file="1" abs_x="2.427708" abs_y="0.717153" abs_angle="270" abs_scale_x="0.007368" abs_scale_y="0.054874" abs_a="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="84">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="2" time="168">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="3" time="252">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="4" time="378">
+                    <bone_ref id="0" timeline="1" key="4"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="2" key="0" z_index="1"/>
+                </key>
+                <key id="5" time="546">
+                    <bone_ref id="0" timeline="1" key="5"/>
+                    <bone_ref id="1" parent="0" timeline="3" key="4"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="1" timeline="2" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="2" name="flower1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-0.211549" y="-9.315457" angle="180" scale_x="1.314922"/>
+                </key>
+                <key id="1" time="546" spin="0">
+                    <object folder="0" file="0" x="-0.211549" y="-9.315457" angle="180" scale_x="1.314922"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90" scale_x="0.02" scale_y="0.2"/>
+                </key>
+                <key id="1" time="84" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90" scale_x="0.760501"/>
+                </key>
+                <key id="2" time="168" curve_type="bezier" c1="0.3333" c2="0.3333" c3="0.6286" c4="0.995349" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90" scale_x="1.1"/>
+                </key>
+                <key id="3" time="252" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90" scale_x="0.9"/>
+                </key>
+                <key id="4" time="378" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90"/>
+                </key>
+                <key id="5" time="546" spin="0">
+                    <bone x="-0.26183" y="-1.839117" angle="90" scale_x="0.9"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="3" name="flower0">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-4.837062" y="-0.282692" pivot_x="0.609359" pivot_y="0.502374" angle="179.526492" scale_x="1.314922"/>
+                </key>
+                <key id="1" time="546" spin="0">
+                    <object folder="0" file="1" x="-4.837062" y="-0.282692" pivot_x="0.609359" pivot_y="0.502374" angle="179.526492" scale_x="1.314922"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="1" name="bone_001" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="115.244406" y="-0.26183" angle="0.473508" scale_x="0.280159" scale_y="0.274369"/>
+                </key>
+                <key id="1" time="84" spin="0">
+                    <bone x="115.244406" y="-0.26183" angle="0.473508" scale_x="0.525969" scale_y="0.4"/>
+                </key>
+                <key id="2" time="168" spin="0">
+                    <bone x="118.530276" y="0.34058" angle="0.473508" scale_x="0.636364" scale_y="0.6"/>
+                </key>
+                <key id="3" time="252" spin="0">
+                    <bone x="115.244406" y="-0.26183" angle="0.473508" scale_x="1.074904"/>
+                </key>
+                <key id="4" time="546" spin="0">
+                    <bone x="115.244406" y="-0.26183" angle="0.473508" scale_x="1.074904"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
