@@ -31,7 +31,6 @@ h1 {
 	font-weight: bold;
     text-align:left;
 	line-height: 1.5;
-	margin-top: 1em;
 }
 
 h2{
@@ -45,23 +44,39 @@ h2{
 }
 
 .footer{
+	position:relative;
 	background-color: #FFC21C;
 	padding: 0.5em;
-	margin-top: 1.5em;
+	font-size: 2em;
+    font-style: normal;
+    text-align: left;
+	line-height: 1.6;
+	margin-top: 1em;
 	margin-bottom: 0.5em;
+}
+
+.footer h2{
 	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
 }
 
-.title01{
-	color: #EB6B8F;;
+.title{
+	padding: 0.5em;
+	color: #FFFFFF;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
 }
 
-.title02{
-	color: #65CAD4;
+.pinkHead{
+	background-color: #EB6B8F;
+}
+.blueHead{
+	background-color: #65CAD4;
 }
 
-.title03{
-	color: #54B77D;
+.greenHead{
+	background-color: #54B77D;
 }
 .content {
 	position:relative;
