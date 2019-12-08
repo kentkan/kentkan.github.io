@@ -18,7 +18,6 @@ div{
 	margin-bottom: 0.5em;
 }
 
-
 body {
 	color: #436171;
 	background-color: white;
@@ -42,21 +41,19 @@ ul{
 	list-style-position: outside;
 }
 
-h1 {
-	font-size: 4em;
-    font-style: normal;
+h1, h2{
+	font-style: normal;
 	font-weight: bold;
     text-align:left;
 	line-height: 1.3;
 }
 
+h1 {
+	font-size: 4em;
+}
+
 h2{
 	font-size: 3.4em;
-    font-style: normal;
-	font-weight: bold;
-    text-align:left;
-	line-height: 1.3;
-	
 }
 
 .pinkA, .blueA, .greenA{
@@ -89,7 +86,6 @@ h2{
 
 .blueB{
 	color: #65CAD4;
-	
 }
 
 .greenB{
@@ -104,9 +100,7 @@ h2{
     font-style: normal;
     text-align: left;
 	line-height: 1.6;
-	margin-top: 3em;
-	margin-bottom: 3em;
-	
+	margin: 3em 0 0 0;	
 }
 
 .footer h2{
@@ -114,5 +108,4 @@ h2{
 	font-size: 1.4em;
 	margin-bottom: 0.5em;
 }
-
 
