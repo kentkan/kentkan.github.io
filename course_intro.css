@@ -71,7 +71,7 @@ h1 {
 .pinkB, .blueB, .greenB{
 	font-size: 3.4em;
     font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
     text-align:left;
 	color: #EB6B8F;
 	line-height: 1.3;
