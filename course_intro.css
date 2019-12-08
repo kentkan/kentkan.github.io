@@ -65,6 +65,8 @@ h2{
 .pinkHead, .blueHead, .greenHead{
 	padding:0.5em;
 	color: #FFFFFF;
+	margin-right: -3em;
+	margin-left: -3em;
 	margin-top: 6em;
 	margin-bottom: 0.5em;
 }
@@ -89,7 +91,7 @@ h2{
 }
 
 li, p{
-	margin-bottom: 0.7em;
+	margin-bottom: 0.6em;
 }
 
 ul{
