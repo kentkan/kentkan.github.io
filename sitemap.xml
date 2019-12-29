@@ -1,488 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://kentkan.cf/index.html</loc>
+    <loc>https://kentkan.github.io/index.html</loc>
+    <lastmod>2019-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/anim_icon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/art_icon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/game_icon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://kentkan.github.io/sketching.html</loc>
+    <lastmod>2019-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/portrait_01-crop-u3249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9215-crop-u45677.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9272s.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9283s-crop-u45761.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture04-crop-u45933.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0730ss.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch06-crop-u3509.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch09-crop-u3864.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture01-crop-u3580.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture02-crop-u3600.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture03-crop-u3620.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch02-crop-u3455.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/oldman01-crop-u3367.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch03-crop-u4184.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch07-crop-u3752.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch08-crop-u4294.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch04-crop-u4156.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch14.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch12-crop-u4640.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch10-crop-u4698.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/s01p-crop-u4268.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/portrait_01-crop-u32492.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9215-crop-u456772.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9283s-crop-u457612.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture04-crop-u459332.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch06-crop-u35092.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch09-crop-u38642.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture01-crop-u35802.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture02-crop-u36002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture03-crop-u36202.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch02-crop-u34552.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/oldman01-crop-u33672.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch03-crop-u41842.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch07-crop-u37522.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch08-crop-u42942.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch04-crop-u41562.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch12-crop-u46402.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch10-crop-u46982.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/s01p-crop-u42682.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/portrait_01-crop-u32493.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9215-crop-u456773.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9272s337x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9283s-crop-u457613.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture04-crop-u459333.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0730ss260x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch06-crop-u35093.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch09-crop-u38643.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture01-crop-u35803.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture02-crop-u36003.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture03-crop-u36203.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch02-crop-u34553.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/oldman01-crop-u33673.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch03-crop-u41843.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch07-crop-u37523.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch08-crop-u42943.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch04-crop-u41563.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch14370x261.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch12-crop-u46403.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch10-crop-u46983.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/s01p-crop-u42683.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://kentkan.github.io/animation.html</loc>
+    <lastmod>2019-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://kentkan.github.io/drawing.html</loc>
     <lastmod>2019-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/anim_icon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/art_icon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/game_icon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/snapshot_04.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/sketching.html</loc>
+    <loc>https://kentkan.github.io/game.html</loc>
     <lastmod>2019-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/portrait_01-crop-u3249.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch06-crop-u3509.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch09-crop-u3864.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture01-crop-u3580.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture02-crop-u3600.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture03-crop-u3620.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch02-crop-u3455.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/oldman01-crop-u3367.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch03-crop-u4184.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch07-crop-u3752.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch08-crop-u4294.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch04-crop-u4156.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch14.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch12-crop-u4640.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch10-crop-u4698.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/s01p-crop-u4268.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/portrait_01-crop-u32492.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch06-crop-u35092.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch09-crop-u38642.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture01-crop-u35802.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture02-crop-u36002.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture03-crop-u36202.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch02-crop-u34552.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/oldman01-crop-u33672.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch03-crop-u41842.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch07-crop-u37522.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch08-crop-u42942.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch04-crop-u41562.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch12-crop-u46402.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch10-crop-u46982.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/s01p-crop-u42682.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/portrait_01-crop-u32493.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch06-crop-u35093.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch09-crop-u38643.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture01-crop-u35803.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture02-crop-u36003.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sculpture03-crop-u36203.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch02-crop-u34553.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/oldman01-crop-u33673.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch03-crop-u41843.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch07-crop-u37523.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch08-crop-u42943.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch04-crop-u41563.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch14370x261.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch12-crop-u46403.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketch10-crop-u46983.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/s01p-crop-u42683.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/animation.html</loc>
+    <loc>https://kentkan.github.io/illustration.html</loc>
+    <lastmod>2019-12-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9447s.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9395-crop-u45342.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0743s-crop-u45369.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9473.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9392.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_8303-crop-u45505.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9486-crop-u45609.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/bottle-crop-u45543.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/copper-crop-u45581.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/calender_a-crop-u4480.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_03.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_04.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_05.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_06.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_07.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9395-crop-u453422.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0743s-crop-u453692.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_8303-crop-u455052.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9486-crop-u456092.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/bottle-crop-u455432.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/copper-crop-u455812.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/calender_a-crop-u44802.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9447s347x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9395-crop-u453423.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0743s-crop-u453693.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9473299x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9392284x346.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_8303-crop-u455053.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9486-crop-u456093.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/bottle-crop-u455433.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/copper-crop-u455813.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/calender_a-crop-u44803.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_04577x324.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_03480x270.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_02577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_03577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_04577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_05577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_06577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_07577x324.png</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://kentkan.github.io/contact.html</loc>
     <lastmod>2019-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/drawing.html</loc>
+    <loc>https://kentkan.github.io/oil-painting.html</loc>
     <lastmod>2019-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/snapshot_04.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/painting01_l-crop-u5113.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting03-crop-u5133.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting02_l-crop-u5180.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting04-crop-u5153.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting01_l-crop-u51132.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting03-crop-u51332.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting02_l-crop-u51802.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting04-crop-u51532.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting01_l-crop-u51133.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting03-crop-u51333.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting02_l-crop-u51803.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting04-crop-u51533.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/game.html</loc>
+    <loc>https://kentkan.github.io/concept-design.html</loc>
     <lastmod>2019-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon2.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/mon.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/illustration.html</loc>
-    <lastmod>2019-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/menu.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_01s-crop-u5234.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_02-crop-u5505.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/snapshot_04.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_03s-crop-u5525.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/calender_a-crop-u4480.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_04s-crop-u5545.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/snapshot_03.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_05s-crop-u5565.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_01.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_06s.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_02.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_07s-crop-u5605.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_03.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_08s-crop-u5625.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_04.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_01.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_05.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_02.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_06.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_03.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_07.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_04.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/calender_a-crop-u44802.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_01s-crop-u52342.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/calender_a-crop-u44803.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_02-crop-u55052.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/snapshot_04577x324.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_03s-crop-u55252.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/snapshot_03480x270.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_04s-crop-u55452.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_01577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_05s-crop-u55652.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_02577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_07s-crop-u56052.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_03577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_08s-crop-u56252.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_04577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_01s-crop-u52343.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_05577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_02-crop-u55053.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_06577x324.png</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_03s-crop-u55253.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/ill_07577x324.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/contact.html</loc>
-    <lastmod>2019-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_04s-crop-u55453.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_05s-crop-u55653.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/oil-painting.html</loc>
-    <lastmod>2019-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_06s392x285.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_07s-crop-u56053.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
+      <image:loc>https://kentkan.github.io/images/sketchs_08s-crop-u56253.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/painting01_l-crop-u5113.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_01577x324.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/painting03-crop-u5133.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_02577x324.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/painting02_l-crop-u5180.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_03577x324.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://kentkan.cf/images/painting04-crop-u5153.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting01_l-crop-u51132.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting03-crop-u51332.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting02_l-crop-u51802.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting04-crop-u51532.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting01_l-crop-u51133.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting03-crop-u51333.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting02_l-crop-u51803.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/painting04-crop-u51533.jpg</image:loc>
+      <image:loc>https://kentkan.github.io/images/3dmodel_04577x324.png</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://kentkan.cf/concept-design.html</loc>
-    <lastmod>2019-01-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon2.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/mon.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/menu.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_01s-crop-u5234.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_02-crop-u5505.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_03s-crop-u5525.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_04s-crop-u5545.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_05s-crop-u5565.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_06s.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_07s-crop-u5605.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u5625.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_02.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_03.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_04.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_01s-crop-u52342.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_02-crop-u55052.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_03s-crop-u55252.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_04s-crop-u55452.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_05s-crop-u55652.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_07s-crop-u56052.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u56252.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_01s-crop-u52343.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_02-crop-u55053.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_03s-crop-u55253.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_04s-crop-u55453.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_05s-crop-u55653.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_06s392x285.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_07s-crop-u56053.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/sketchs_08s-crop-u56253.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_01577x324.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_02577x324.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_03577x324.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://kentkan.cf/images/3dmodel_04577x324.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://kentkan.cf/assets/resume_kent-kan.doc</loc>
-    <lastmod>2018-11-17</lastmod>
+    <loc>https://kentkan.github.io/assets/resume_kent-kan.doc</loc>
+    <lastmod>2019-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
