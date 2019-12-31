@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kentkan.github.io/index.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://kentkan.github.io/sketching.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -218,10 +218,73 @@
     <image:image>
       <image:loc>https://kentkan.github.io/images/s01p-crop-u42683.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/portrait_01186x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9215244x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9272s242x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9283s157x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture04186x249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0730ss186x249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch06248x249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch09248x249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture01248x249.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture02248x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sculpture03309x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch02-crop-u34554.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/oldman01278x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch03232x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch07269x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch08252x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch04309x309.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch14330x233.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch12-crop-u46404.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketch10-crop-u46984.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/s01p-crop-u42684.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://kentkan.github.io/animation.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -236,7 +299,7 @@
   </url>
   <url>
     <loc>https://kentkan.github.io/drawing.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -254,7 +317,7 @@
   </url>
   <url>
     <loc>https://kentkan.github.io/game.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -269,7 +332,7 @@
   </url>
   <url>
     <loc>https://kentkan.github.io/illustration.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -369,9 +432,6 @@
       <image:loc>https://kentkan.github.io/images/img_9473299x347.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://kentkan.github.io/images/img_9392284x346.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://kentkan.github.io/images/img_8303-crop-u455053.jpg</image:loc>
     </image:image>
     <image:image>
@@ -410,10 +470,67 @@
     <image:image>
       <image:loc>https://kentkan.github.io/images/ill_07577x324.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9392284x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9447s317x317.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9395-crop-u453424.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_0743s-crop-u453694.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9473262x303.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9392248x303.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_8303-crop-u455054.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/img_9486-crop-u456094.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/bottle-crop-u455434.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/copper224x303.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/calender_a-crop-u44804.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_04-crop-u40796.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/snapshot_03-crop-u40823.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_02-crop-u41312.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_03-crop-u41340.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_04-crop-u41368.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_05-crop-u41396.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_06-crop-u41424.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/ill_07-crop-u41452.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://kentkan.github.io/contact.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -428,7 +545,7 @@
   </url>
   <url>
     <loc>https://kentkan.github.io/oil-painting.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -476,10 +593,22 @@
     <image:image>
       <image:loc>https://kentkan.github.io/images/painting04-crop-u51533.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting01_l-crop-u51134.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting03-crop-u51334.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting02_l-crop-u51804.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/painting04-crop-u51534.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://kentkan.github.io/concept-design.html</loc>
-    <lastmod>2019-12-30</lastmod>
+    <lastmod>2019-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -583,6 +712,42 @@
     </image:image>
     <image:image>
       <image:loc>https://kentkan.github.io/images/3dmodel_04577x324.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_01s-crop-u52344.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_02-crop-u55054.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_03s-crop-u55254.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_04s-crop-u55454.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_05s-crop-u55654.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_06s166x121.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_07s-crop-u56054.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/sketchs_08s-crop-u56254.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/3dmodel_01244x137.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/3dmodel_02244x137.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/3dmodel_03244x137.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://kentkan.github.io/images/3dmodel_04244x137.png</image:loc>
     </image:image>
   </url>
   <url>
