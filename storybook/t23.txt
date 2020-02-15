@@ -1,0 +1,11 @@
+﻿{"c2dictionary":true,"data":{
+
+"p23By":
+"2.8-action01-0;
+5.2-idle1-1",
+
+"p23Bz":
+"2.7-action01-0;
+5.1-idle0-1"
+
+}}

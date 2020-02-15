@@ -1,0 +1,324 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 41,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 2,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "coin01",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							}
+						]
+					},
+					"name": "idle0",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1
+									},
+									"spin": 0
+								}
+							],
+							"name": "coin01",
+							"obj": 0
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 41,
+					"length": 900,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 0,
+										"abs_y": 0,
+										"file": 2,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "coin01",
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 82
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 246
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 328
+							},
+							{
+								"bone_ref": [],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 410
+							},
+							{
+								"bone_ref": [],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 533
+							},
+							{
+								"bone_ref": [],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 697
+							}
+						]
+					},
+					"name": "action01",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"scale_x": 0.833333,
+										"scale_y": 0.833333
+									},
+									"spin": 0,
+									"time": 82
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"scale_x": 0.75,
+										"scale_y": 0.75
+									},
+									"spin": 0,
+									"time": 246
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"scale_x": 1.2,
+										"scale_y": 1.2
+									},
+									"spin": 0,
+									"time": 328
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"scale_x": 1.3,
+										"scale_y": 1.3
+									},
+									"spin": 0,
+									"time": 410
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1,
+										"scale_x": 0.92,
+										"scale_y": 0.92
+									},
+									"spin": 0,
+									"time": 533
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 1
+									},
+									"spin": 0,
+									"time": 697
+								}
+							],
+							"name": "coin01",
+							"obj": 0
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "p02Bg03",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 1
+						}
+					],
+					"name": "p02Bg03_coin01",
+					"realname": "coin01",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 1080,
+					"id": 0,
+					"name": "p02/bg/bgRef.jpg",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 1080
+				}
+			],
+			"id": 0,
+			"name": "p02/bg"
+		},
+		{
+			"file": [
+				{
+					"height": 202,
+					"id": 0,
+					"name": "p02/badges/coin01.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 198
+				},
+				{
+					"height": 213,
+					"id": 1,
+					"name": "p02/badges/coin02.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 212
+				},
+				{
+					"height": 209,
+					"id": 2,
+					"name": "p02/badges/coin03.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 219
+				}
+			],
+			"id": 1,
+			"name": "p02/badges"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}

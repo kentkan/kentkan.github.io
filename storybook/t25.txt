@@ -1,0 +1,12 @@
+﻿{"c2dictionary":true,"data":{
+
+"p25Bz":
+"0.1-idle0-1",
+
+"p25Cn":
+"0.1-idle0-1",
+
+"p25St":
+"0.1-idle0-1"
+
+}}

@@ -1,0 +1,230 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 41,
+					"length": 2460,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 1
+									}
+								],
+								"c1": 0.4093,
+								"c2": 0.0461,
+								"c3": 0.5624,
+								"c4": 0.907834,
+								"curve_type": "bezier",
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 113.82030099999997,
+										"abs_pivot_x": 0.073791,
+										"abs_pivot_y": 0.625304,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -10.043171098627623,
+										"abs_y": 3.1375027919984264,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "umbrella",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 1
+									}
+								],
+								"c1": 0.4526,
+								"c2": 0.105991,
+								"c3": 0.5624,
+								"c4": 0.9631,
+								"curve_type": "bezier",
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 1025
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 1
+									}
+								],
+								"c1": 0.4526,
+								"c2": 0.105991,
+								"c3": 0.5624,
+								"c4": 0.9631,
+								"curve_type": "bezier",
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									}
+								],
+								"time": 2460
+							}
+						]
+					},
+					"name": "idle0",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 110.342514,
+										"file": 1,
+										"folder": 0,
+										"x": 3.683407,
+										"y": -3.367145
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 110.342514,
+										"file": 1,
+										"folder": 0,
+										"x": 3.683407,
+										"y": -3.367145
+									},
+									"spin": 0,
+									"time": 1025
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 110.342514,
+										"file": 1,
+										"folder": 0,
+										"x": 3.683407,
+										"y": -3.367145
+									},
+									"spin": 0,
+									"time": 2460
+								}
+							],
+							"name": "umbrella",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 3.477786999999978,
+										"x": -13.924051
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 354.093859,
+										"x": -13.924051
+									},
+									"id": 1,
+									"time": 1025
+								},
+								{
+									"bone": {
+										"angle": 3.477786999999978,
+										"x": -13.924051
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 2460
+								}
+							],
+							"name": "bone_000",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "p24Rb",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "p24Rb_umbrella",
+					"realname": "umbrella",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "p24Rb_bone_000",
+					"realname": "bone_000",
+					"type": "bone",
+					"w": 244.386
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 1080,
+					"id": 0,
+					"name": "p24/bg/bgRef01.jpg",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 1080
+				},
+				{
+					"height": 411,
+					"id": 1,
+					"name": "p24/bg/umbrella.png",
+					"pivot_x": 0.073791,
+					"pivot_y": 0.625304,
+					"width": 393
+				}
+			],
+			"id": 0,
+			"name": "p24/bg"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}

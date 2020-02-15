@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="p02/bg">
+        <file id="0" name="p02/bg/bgRef.jpg" width="1080" height="1080" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="p02/badges">
+        <file id="0" name="p02/badges/coin01.png" width="198" height="202" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="p02/badges/coin02.png" width="212" height="213" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="p02/badges/coin03.png" width="219" height="209" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="p02Bg03">
+        <obj_info name="p02Bg03_coin01" realname="coin01" type="sprite">
+            <frames>
+                <i folder="1" file="2"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle0" length="1000" interval="41">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="coin01" folder="1" file="2" abs_x="-109.5" abs_y="104.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="coin01">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="action01" length="900" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="coin01" folder="1" file="2" abs_x="-109.5" abs_y="104.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="82">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="246">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="328">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="410">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="533">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="697">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="coin01">
+                <key id="0" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+                <key id="1" time="82" spin="0">
+                    <object folder="1" file="2" angle="0" scale_x="0.833333" scale_y="0.833333"/>
+                </key>
+                <key id="2" time="246" spin="0">
+                    <object folder="1" file="2" angle="0" scale_x="0.75" scale_y="0.75"/>
+                </key>
+                <key id="3" time="328" spin="0">
+                    <object folder="1" file="2" angle="0" scale_x="1.2" scale_y="1.2"/>
+                </key>
+                <key id="4" time="410" spin="0">
+                    <object folder="1" file="2" angle="0" scale_x="1.3" scale_y="1.3"/>
+                </key>
+                <key id="5" time="533" spin="0">
+                    <object folder="1" file="2" angle="0" scale_x="0.92" scale_y="0.92"/>
+                </key>
+                <key id="6" time="697" spin="0">
+                    <object folder="1" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

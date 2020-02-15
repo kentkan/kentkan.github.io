@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="p04/bg">
+        <file id="0" name="p04/bg/bgRef1.png" width="1080" height="1080" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="p04/bg/txt01.png" width="244" height="87" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="p04/bg/txt02.png" width="368" height="69" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="p04/text">
+        <file id="0" name="p04/text/txt01_01.png" width="244" height="87" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="p04/text/txt02_01.png" width="184" height="69" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="p04/text/txt02_02.png" width="184" height="69" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="p04Tx">
+        <obj_info name="p04Tx_txt01" realname="txt01" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p04Tx_txt02" realname="txt02" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p04Tx_txt01_01" realname="txt01_01" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p04Tx_txt02_01" realname="txt02_01" type="sprite">
+            <frames>
+                <i folder="1" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p04Tx_txt02_02" realname="txt02_02" type="sprite">
+            <frames>
+                <i folder="1" file="2"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle0" length="1000" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="txt01" folder="0" file="1" abs_x="64" abs_y="-137" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="txt02" folder="0" file="2" abs_x="588" abs_y="-695" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="txt01">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="64" y="-137"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="txt02">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="588" y="-695"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="action01" length="4785" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="txt01" folder="0" file="1" abs_x="64" abs_y="-137" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="txt02" folder="0" file="2" abs_x="588" abs_y="-695" abs_angle="360" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="1025">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="2" time="2952">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="3" time="3731">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="txt01">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="64" y="-137"/>
+                </key>
+                <key id="1" time="3731" spin="0">
+                    <object folder="0" file="1" x="64" y="-137"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="txt02">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="588" y="-695"/>
+                </key>
+                <key id="1" time="3731" spin="0">
+                    <object folder="0" file="2" x="588" y="-695"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="txt01_01">
+                <key id="0" time="1025" spin="0">
+                    <object folder="1" file="0" x="64.473684" y="-136.842105"/>
+                </key>
+                <key id="1" time="3731" spin="0">
+                    <object folder="1" file="0" x="64.473684" y="-136.842105"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="txt02_01">
+                <key id="0" time="2952" spin="0">
+                    <object folder="1" file="1" x="588.157895" y="-694.736842"/>
+                </key>
+                <key id="1" time="3731" spin="0">
+                    <object folder="1" file="1" x="588.157895" y="-694.736842"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="4" name="txt02_02">
+                <key id="0" time="3731" spin="0">
+                    <object folder="1" file="2" x="771.052632" y="-694.736842"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
