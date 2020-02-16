@@ -1,0 +1,215 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.461538,
+										"abs_pivot_y": 0.18461499999999997,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 170.23809523809524,
+										"abs_y": -45.23809523809524,
+										"file": 2,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "coin03",
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.47863247863247865,
+										"abs_pivot_y": 0.263514,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 85.71428571428572,
+										"abs_y": 2.3809523809523796,
+										"file": 1,
+										"folder": 1,
+										"id": 1,
+										"key": 0,
+										"name": "coin02",
+										"timeline": "1",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 360,
+										"abs_pivot_x": 0.572581,
+										"abs_pivot_y": 0.190789,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -2.380952380952381,
+										"abs_y": 42.857142857142854,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "coin01",
+										"timeline": "0",
+										"z_index": "2"
+									}
+								]
+							}
+						]
+					},
+					"name": "idle0",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 0,
+										"folder": 1,
+										"x": -2.380952380952381,
+										"y": -42.857142857142854
+									},
+									"spin": 0
+								}
+							],
+							"name": "coin01",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 1,
+										"folder": 1,
+										"x": 85.71428571428572,
+										"y": -2.3809523809523796
+									},
+									"spin": 0
+								}
+							],
+							"name": "coin02",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"file": 2,
+										"folder": 1,
+										"x": 170.23809523809524,
+										"y": 45.23809523809524
+									},
+									"spin": 0
+								}
+							],
+							"name": "coin03",
+							"obj": 2
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "p21Cn",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "p21Cn_coin01",
+					"realname": "coin01",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "p21Cn_coin02",
+					"realname": "coin02",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 1
+						}
+					],
+					"name": "p21Cn_coin03",
+					"realname": "coin03",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 1080,
+					"id": 0,
+					"name": "p22/bg/bgRef1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 1080
+				}
+			],
+			"id": 0,
+			"name": "p22/bg"
+		},
+		{
+			"file": [
+				{
+					"height": 152,
+					"id": 0,
+					"name": "p22/coins/coin01.png",
+					"pivot_x": 0.572581,
+					"pivot_y": 0.190789,
+					"width": 124
+				},
+				{
+					"height": 148,
+					"id": 1,
+					"name": "p22/coins/coin02.png",
+					"pivot_x": 0.47863247863247865,
+					"pivot_y": 0.263514,
+					"width": 117
+				},
+				{
+					"height": 130,
+					"id": 2,
+					"name": "p22/coins/coin03.png",
+					"pivot_x": 0.461538,
+					"pivot_y": 0.18461499999999997,
+					"width": 117
+				}
+			],
+			"id": 1,
+			"name": "p22/coins"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}
