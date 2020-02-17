@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1581866182,
+	"version": 1581957829,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -301,6 +301,7 @@
 		"images/p07rt_p08rt_head-sheet0.png",
 		"images/p07rt_p08rt_body-sheet0.png",
 		"images/p07rt_p08rt_leftarm-sheet0.png",
+		"images/p07rt_p08rt_eye-sheet0.png",
 		"images/txt07-sheet0.png",
 		"images/bg07-sheet0.png",
 		"images/p06bz_p07nz_upperbody-sheet0.png",
@@ -405,6 +406,7 @@
 		"images/p01tx_p01tx_txt01-sheet0.png",
 		"images/p01bg-sheet0.png",
 		"images/cover-sheet0.png",
+		"images/door-sheet0.png",
 		"media/a1.m4a",
 		"media/a1.ogg",
 		"media/a2.m4a",

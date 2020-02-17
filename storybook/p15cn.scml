@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="p16/bg">
+        <file id="0" name="p16/bg/bgRef.jpg" width="1080" height="1080" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="p16/bonzo">
+        <file id="0" name="p16/bonzo/eye01.png" width="65" height="67" pivot_x="0.461538" pivot_y="0.477612"/>
+        <file id="1" name="p16/bonzo/eye02.png" width="24" height="26" pivot_x="0.208333" pivot_y="0.5"/>
+        <file id="2" name="p16/bonzo/eye03.png" width="30" height="50" pivot_x="0.233333" pivot_y="0.48"/>
+        <file id="3" name="p16/bonzo/head.png" width="298" height="302" pivot_x="0.097315" pivot_y="0.486755"/>
+        <file id="4" name="p16/bonzo/leftarm.png" width="137" height="45" pivot_x="0.175182" pivot_y="0.422222"/>
+        <file id="5" name="p16/bonzo/leftleg.png" width="106" height="61" pivot_x="0.113208" pivot_y="0.491803"/>
+        <file id="6" name="p16/bonzo/lowerbody.png" width="83" height="121" pivot_x="0.445783" pivot_y="0.471074"/>
+        <file id="7" name="p16/bonzo/rightarm.png" width="126" height="44" pivot_x="0.150794" pivot_y="0.431818"/>
+        <file id="8" name="p16/bonzo/rightleg.png" width="104" height="64" pivot_x="0.173077" pivot_y="0.375"/>
+        <file id="9" name="p16/bonzo/tail.png" width="45" height="63" pivot_x="0.377778" pivot_y="0.174603"/>
+        <file id="10" name="p16/bonzo/upperbody.png" width="176" height="165" pivot_x="0.085227" pivot_y="0.472727"/>
+    </folder>
+    <folder id="2" name="p16/badge">
+        <file id="0" name="p16/badge/coin.png" width="128" height="125" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="p16/badge/highlight.png" width="256" height="297" pivot_x="0.574219" pivot_y="0.491582"/>
+    </folder>
+    <entity id="0" name="p16Cn">
+        <obj_info name="p16Cn_highlight" realname="highlight" type="sprite">
+            <frames>
+                <i folder="2" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p16Cn_coin" realname="coin" type="sprite">
+            <frames>
+                <i folder="2" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p16Cn_bone_000" realname="bone_000" type="bone" w="176" h="10"/>
+        <animation id="0" name="idle0" length="500" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="2" key="0"/>
+                    <object_ref id="0" parent="0" name="highlight" folder="2" file="1" abs_x="218.429655" abs_y="456.397736" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" name="coin" folder="2" file="0" abs_x="305.768814" abs_y="369.835778" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="highlight">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="coin">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="0.435481" y="3.335778" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="369.333333" y="304" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="action01" length="2000" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="2" key="0"/>
+                    <object_ref id="0" parent="0" name="highlight" folder="2" file="1" abs_x="284.974551" abs_y="357.52052" abs_angle="0" abs_scale_x="0.583595" abs_scale_y="0.583595" abs_a="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" name="coin" folder="2" file="0" abs_x="311.102148" abs_y="333.835778" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="328">
+                    <bone_ref id="0" timeline="2" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="656">
+                    <bone_ref id="0" timeline="2" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="3" time="984">
+                    <bone_ref id="0" timeline="2" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="4" time="1312" curve_type="bezier" c1="0.396007" c2="0.0369" c3="0.574043" c4="0.995392">
+                    <bone_ref id="0" timeline="2" key="4"/>
+                    <object_ref id="0" parent="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="5" time="1968">
+                    <bone_ref id="0" timeline="2" key="5"/>
+                    <object_ref id="0" parent="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="3" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="highlight">
+                <key id="0" spin="-1">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" angle="0" scale_x="0.583595" scale_y="0.583595" a="0"/>
+                </key>
+                <key id="1" time="328" spin="-1">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" angle="322.00975"/>
+                </key>
+                <key id="2" time="656" spin="-1">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" angle="284.019499" scale_x="0.844026" scale_y="0.844026" a="0.5"/>
+                </key>
+                <key id="3" time="1312" spin="-1">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" angle="199.73245"/>
+                </key>
+                <key id="4" time="1968" spin="-1">
+                    <object folder="2" file="1" x="-3.903614" y="1.39759" angle="115.4454" scale_x="0.7" scale_y="0.7" a="0.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="coin">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="0.435481" y="3.335778" angle="0" a="0"/>
+                </key>
+                <key id="1" time="328" spin="0">
+                    <object folder="2" file="0" x="0.435481" y="3.335778" angle="0" a="0.8"/>
+                </key>
+                <key id="2" time="1312" spin="0">
+                    <object folder="2" file="0" x="0.435481" y="3.335778" angle="0"/>
+                </key>
+                <key id="3" time="1968" spin="0">
+                    <object folder="2" file="0" x="0.435481" y="3.335778" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="374.666667" y="268" angle="0"/>
+                </key>
+                <key id="1" time="328" spin="0">
+                    <bone x="323.62963" y="315.481481" angle="0"/>
+                </key>
+                <key id="2" time="656" spin="0">
+                    <bone x="274.666667" y="344" angle="0"/>
+                </key>
+                <key id="3" time="984" spin="0">
+                    <bone x="241.276896" y="338.215168" angle="0"/>
+                </key>
+                <key id="4" time="1312" spin="0">
+                    <bone x="231.365079" y="324.253968" angle="0"/>
+                </key>
+                <key id="5" time="1968" curve_type="bezier" c1="0.4276" c2="0.0138249" c3="0.4908" c4="0.9585" spin="0">
+                    <bone x="231.365079" y="324.253968" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

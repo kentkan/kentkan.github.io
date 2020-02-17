@@ -5,7 +5,7 @@
 				{
 					"id": 0,
 					"interval": 41,
-					"length": 50,
+					"length": 500,
 					"looping": "false",
 					"mainline": {
 						"key": [
@@ -15,13 +15,13 @@
 								"object_ref": [
 									{
 										"abs_a": 1,
-										"abs_angle": 360,
+										"abs_angle": 0,
 										"abs_pivot_x": 0,
 										"abs_pivot_y": 1,
 										"abs_scale_x": 1,
 										"abs_scale_y": 1,
-										"abs_x": 63.63636363636368,
-										"abs_y": 136.36363636363632,
+										"abs_x": 63.636364,
+										"abs_y": 136.363636,
 										"file": 1,
 										"folder": 0,
 										"id": 0,
@@ -32,13 +32,13 @@
 									},
 									{
 										"abs_a": 1,
-										"abs_angle": 360,
+										"abs_angle": 0,
 										"abs_pivot_x": 0,
 										"abs_pivot_y": 1,
 										"abs_scale_x": 1,
 										"abs_scale_y": 1,
-										"abs_x": 588.3116883116883,
-										"abs_y": 696.1038961038961,
+										"abs_x": 588.311688,
+										"abs_y": 696.103896,
 										"file": 2,
 										"folder": 0,
 										"id": 1,
@@ -135,10 +135,11 @@
 								{
 									"id": 0,
 									"object": {
+										"angle": 0,
 										"file": 1,
 										"folder": 0,
-										"x": 63.63636363636368,
-										"y": -136.36363636363632
+										"x": 63.636364,
+										"y": -136.363636
 									},
 									"spin": 0
 								}
@@ -152,10 +153,11 @@
 								{
 									"id": 0,
 									"object": {
+										"angle": 0,
 										"file": 2,
 										"folder": 0,
-										"x": 588.3116883116883,
-										"y": -696.1038961038961
+										"x": 588.311688,
+										"y": -696.103896
 									},
 									"spin": 0
 								}
@@ -178,13 +180,13 @@
 								"object_ref": [
 									{
 										"abs_a": 1,
-										"abs_angle": 360,
+										"abs_angle": 0,
 										"abs_pivot_x": 0,
 										"abs_pivot_y": 1,
 										"abs_scale_x": 1,
 										"abs_scale_y": 1,
-										"abs_x": 63.63636363636368,
-										"abs_y": 136.36363636363632,
+										"abs_x": 63.636364,
+										"abs_y": 136.363636,
 										"file": 1,
 										"folder": 0,
 										"id": 0,
@@ -195,13 +197,13 @@
 									},
 									{
 										"abs_a": 1,
-										"abs_angle": 360,
+										"abs_angle": 0,
 										"abs_pivot_x": 0,
 										"abs_pivot_y": 1,
 										"abs_scale_x": 1,
 										"abs_scale_y": 1,
-										"abs_x": 588.3116883116883,
-										"abs_y": 696.1038961038961,
+										"abs_x": 588.311688,
+										"abs_y": 696.103896,
 										"file": 2,
 										"folder": 0,
 										"id": 1,
@@ -252,26 +254,26 @@
 								"object_ref": [
 									{
 										"id": 0,
-										"key": 1,
-										"timeline": "0",
+										"key": 0,
+										"timeline": "2",
 										"z_index": "0"
 									},
 									{
 										"id": 1,
 										"key": 0,
-										"timeline": "1",
+										"timeline": "3",
 										"z_index": "1"
 									},
 									{
 										"id": 2,
-										"key": 0,
-										"timeline": "2",
+										"key": 1,
+										"timeline": "0",
 										"z_index": "2"
 									},
 									{
 										"id": 3,
 										"key": 0,
-										"timeline": "3",
+										"timeline": "1",
 										"z_index": "3"
 									}
 								],
@@ -283,26 +285,26 @@
 								"object_ref": [
 									{
 										"id": 0,
-										"key": 1,
-										"timeline": "0",
+										"key": 0,
+										"timeline": "2",
 										"z_index": "0"
 									},
 									{
 										"id": 1,
-										"key": 1,
-										"timeline": "1",
+										"key": 0,
+										"timeline": "3",
 										"z_index": "1"
 									},
 									{
 										"id": 2,
-										"key": 0,
-										"timeline": "2",
+										"key": 1,
+										"timeline": "0",
 										"z_index": "2"
 									},
 									{
 										"id": 3,
-										"key": 0,
-										"timeline": "3",
+										"key": 1,
+										"timeline": "1",
 										"z_index": "3"
 									}
 								],
@@ -314,26 +316,26 @@
 								"object_ref": [
 									{
 										"id": 0,
-										"key": 1,
-										"timeline": "0",
+										"key": 0,
+										"timeline": "2",
 										"z_index": "0"
 									},
 									{
 										"id": 1,
-										"key": 2,
-										"timeline": "1",
+										"key": 0,
+										"timeline": "3",
 										"z_index": "1"
 									},
 									{
 										"id": 2,
-										"key": 0,
-										"timeline": "2",
+										"key": 1,
+										"timeline": "0",
 										"z_index": "2"
 									},
 									{
 										"id": 3,
-										"key": 0,
-										"timeline": "3",
+										"key": 2,
+										"timeline": "1",
 										"z_index": "3"
 									}
 								],
@@ -345,26 +347,26 @@
 								"object_ref": [
 									{
 										"id": 0,
-										"key": 2,
-										"timeline": "0",
+										"key": 1,
+										"timeline": "2",
 										"z_index": "0"
 									},
 									{
 										"id": 1,
-										"key": 3,
-										"timeline": "1",
+										"key": 1,
+										"timeline": "3",
 										"z_index": "1"
 									},
 									{
 										"id": 2,
-										"key": 1,
-										"timeline": "2",
+										"key": 2,
+										"timeline": "0",
 										"z_index": "2"
 									},
 									{
 										"id": 3,
-										"key": 1,
-										"timeline": "3",
+										"key": 3,
+										"timeline": "1",
 										"z_index": "3"
 									}
 								],
@@ -492,20 +494,22 @@
 								{
 									"id": 0,
 									"object": {
+										"angle": 0,
 										"file": 1,
 										"folder": 0,
-										"x": 63.63636363636368,
-										"y": -136.36363636363632
+										"x": 63.636364,
+										"y": -136.363636
 									},
 									"spin": 0
 								},
 								{
 									"id": 1,
 									"object": {
+										"angle": 0,
 										"file": 1,
 										"folder": 0,
-										"x": 63.63636363636368,
-										"y": -136.36363636363632
+										"x": 63.636364,
+										"y": -136.363636
 									},
 									"spin": 0,
 									"time": 3690
@@ -520,20 +524,22 @@
 								{
 									"id": 0,
 									"object": {
+										"angle": 0,
 										"file": 2,
 										"folder": 0,
-										"x": 588.3116883116883,
-										"y": -696.1038961038961
+										"x": 588.311688,
+										"y": -696.103896
 									},
 									"spin": 0
 								},
 								{
 									"id": 1,
 									"object": {
+										"angle": 0,
 										"file": 2,
 										"folder": 0,
-										"x": 588.3116883116883,
-										"y": -696.1038961038961
+										"x": 588.311688,
+										"y": -696.103896
 									},
 									"spin": 0,
 									"time": 3690

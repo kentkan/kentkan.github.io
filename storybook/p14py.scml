@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="p15/bg">
+        <file id="0" name="p15/bg/bgRef.jpg" width="1080" height="1080" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <folder id="1" name="p15/bonzo">
+        <file id="0" name="p15/bonzo/highlight.png" width="973" height="756" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="p15/bonzo/potty.png" width="777" height="557" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="p15Py">
+        <obj_info name="p15Py_potty" realname="potty" type="sprite">
+            <frames>
+                <i folder="1" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="p15Py_highlight" realname="highlight" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle0" length="1000" interval="41">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="potty" folder="1" file="1" abs_x="-372.590909" abs_y="187.590909" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="highlight" folder="1" file="0" abs_x="-478.824888" abs_y="298.193741" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="potty">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="15.909091" y="-90.909091" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="highlight">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="action01" length="1000" interval="41" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="highlight" folder="1" file="0" abs_x="-40.974888" abs_y="-42.006259" abs_angle="0" abs_scale_x="0.1" abs_scale_y="0.1" abs_a="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="potty" folder="1" file="1" abs_x="-29.226623" abs_y="-52.201948" abs_angle="0" abs_scale_x="0.1" abs_scale_y="0.1" abs_a="0" timeline="0" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="82">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="123">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="164">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="2" z_index="1"/>
+                </key>
+                <key id="4" time="205">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="5" time="287">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="3" z_index="1"/>
+                </key>
+                <key id="6" time="328">
+                    <object_ref id="0" timeline="1" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="7" time="410">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="4" z_index="1"/>
+                </key>
+                <key id="8" time="451">
+                    <object_ref id="0" timeline="1" key="5" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+                <key id="9" time="533">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="5" z_index="1"/>
+                </key>
+                <key id="10" time="615">
+                    <object_ref id="0" timeline="1" key="6" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="6" z_index="1"/>
+                </key>
+                <key id="11" time="697">
+                    <object_ref id="0" timeline="1" key="7" z_index="0"/>
+                    <object_ref id="1" timeline="0" key="7" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="potty">
+                <key id="0" spin="0">
+                    <object folder="1" file="1" x="9.623377" y="-80.051948" angle="0" scale_x="0.1" scale_y="0.1" a="0"/>
+                </key>
+                <key id="1" time="82" spin="0">
+                    <object folder="1" file="1" x="11.509091" y="-83.309091" angle="0" scale_x="0.2" scale_y="0.2"/>
+                </key>
+                <key id="2" time="123" spin="0">
+                    <object folder="1" file="1" x="14.337662" y="-88.194805" angle="0" scale_x="0.775" scale_y="0.775"/>
+                </key>
+                <key id="3" time="205" spin="0">
+                    <object folder="1" file="1" x="15.909091" y="-90.909091" angle="0" scale_x="1.05" scale_y="1.05"/>
+                </key>
+                <key id="4" time="328" spin="0">
+                    <object folder="1" file="1" x="15.594805" y="-90.366234" angle="0" scale_x="0.955" scale_y="0.955"/>
+                </key>
+                <key id="5" time="451" spin="0">
+                    <object folder="1" file="1" x="15.804329" y="-90.728139" angle="0" scale_x="0.985" scale_y="0.985"/>
+                </key>
+                <key id="6" time="615" spin="0">
+                    <object folder="1" file="1" x="15.909091" y="-90.909091" angle="0"/>
+                </key>
+                <key id="7" time="697" spin="0">
+                    <object folder="1" file="1" x="15.909091" y="-90.909091" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="highlight">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.1" scale_y="0.1" a="0"/>
+                </key>
+                <key id="1" time="82" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.1" scale_y="0.1" a="0"/>
+                </key>
+                <key id="2" time="164" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.37" scale_y="0.37"/>
+                </key>
+                <key id="3" time="205" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.775" scale_y="0.775"/>
+                </key>
+                <key id="4" time="287" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="1.05" scale_y="1.05"/>
+                </key>
+                <key id="5" time="410" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.955" scale_y="0.955"/>
+                </key>
+                <key id="6" time="533" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0" scale_x="0.985" scale_y="0.985"/>
+                </key>
+                <key id="7" time="697" spin="0">
+                    <object folder="1" file="0" x="7.675112" y="-79.806259" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
