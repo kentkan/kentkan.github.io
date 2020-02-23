@@ -1,7 +1,11 @@
 ﻿{"c2dictionary":true,"data":{
 
 "p02Tx":
-"0.1-action01-0",
+"0-action01-0;
+6.4-idle1-1",
+
+"p02Tx02":
+"6.6-action01-0",
 
 "p02Rt":
 "1.7-action01-0;
@@ -25,10 +29,12 @@
 17.7-idle1-1",
 
 "p02Bg1":
-"7.3-action01-0",
+"7.3-action01-0;
+11-idle0-1",
 
 "p02Bg2":
-"12.0-action01-0",
+"12.0-action01-0;
+14-idle0-1",
 
 "p02Bg3":
 "14.9-action01-0"

@@ -13,7 +13,7 @@
 								"id": 0,
 								"object_ref": [
 									{
-										"abs_a": 1,
+										"abs_a": 0,
 										"abs_angle": 0,
 										"abs_pivot_x": 0.5,
 										"abs_pivot_y": 0.5,
@@ -41,6 +41,7 @@
 								{
 									"id": 0,
 									"object": {
+										"a": 0,
 										"angle": 0,
 										"file": 2,
 										"folder": 1

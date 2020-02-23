@@ -17,12 +17,12 @@
         <animation id="0" name="idle0" length="1000" interval="41">
             <mainline>
                 <key id="0">
-                    <object_ref id="0" name="coin01" folder="1" file="2" abs_x="-109.5" abs_y="104.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="0" name="coin01" folder="1" file="2" abs_x="-109.5" abs_y="104.5" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="0" timeline="0" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" obj="0" name="coin01">
                 <key id="0" spin="0">
-                    <object folder="1" file="2" angle="0"/>
+                    <object folder="1" file="2" angle="0" a="0"/>
                 </key>
             </timeline>
         </animation>
