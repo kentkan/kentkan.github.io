@@ -92,9 +92,17 @@ html, body, div, img {
   grid-auto-flow: column;
   grid-row-gap: 0.5em;
   grid-column-gap: 0.5em;
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /*test for ios*/
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
 }
-
+.gallery::-webkit-scrollbar  {
+    display: none;
+    height: 0;
+    width: 0;
+}
 .gallery img {
   vertical-align: middle;
   width: 97px;
