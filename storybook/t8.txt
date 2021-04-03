@@ -1,9 +1,0 @@
-﻿{"c2dictionary":true,"data":{
-
-"p08Bz":
-"1.8-action01-0;
-3.4-action02-0;
-2.5-idle1-1;
-6.5-action03-0"
-
-}}
