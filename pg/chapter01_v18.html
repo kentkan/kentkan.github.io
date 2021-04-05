@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+html{
+ scroll-behavior: smooth;
+}
+html, body, div, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  color: #000000;
+  font-family: "Microsoft JhengHei", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  vertical-align: baseline;
+}
+#fulTxt{
+  display: none;
+}
+.header {
+  display: flex;
+  flex-grow: 1; 
+	position: fixed;
+	height: 52px;
+  top: 0;
+	width: 100%;
+	z-index: 90;
+  color: #ffffff;
+	background: #019ac0;
+  transition: top .3s ease;
+}
+.header.hide {
+	top: -53px;
+}
+.header a {
+  display:block;
+  flex-basis: 52px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 0.5em;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 52px;
+  text-decoration: none;
+}
+.header a:nth-of-type(1){
+  background-color: #0f89a7;
+  cursor:pointer;
+}
+.header img{
+  width: auto;
+  heigth: auto;
+  margin: auto;
+}
+.header .title{
+  display:block;
+  flex-grow: 1;
+  font-size: 1.35rem;
+  line-height: 0.5;
+  font-weight:700;
+  text-align: center;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgb( 17, 17, 17);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  transition: 0.1s ease;
+}
+.sidenav .btn {
+  padding: 0.6em 0.9em;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .active, .sidenav .btn:hover {
+  background-color: #019ac0;;
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  display: block;
+  background-color: rgb( 17, 17, 17);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  width: 280px;
+  height: 52px;
+  margin-bottom: 1em;
+  top: 0;
+}
+  .sidenav .closebtn img{
+    margin-left: 14em;
+  }
+.wrapper {
+  padding: 0.5em;
+  margin-top: 2.5em;
+  
+  
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 0.8em;
+}
+.text-box{
+  background-color: #f5fcff;
+  padding: 0 1.2em 1em 1.2em;
+  margin: 1em 0 0 0;
+  border-radius: 0.5em;
+}
+.text-box-A{
+  padding: 0 0.8em;
+  column-count: 1;
+}
+.body {
+  font-size: 1.2rem;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.6;
+}
+.line {
+  border-top: 2px solid #019ac0;
+  margin: 0.4em 0;
+}
+.h2{
+  font-size: 1.35rem;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #019ac0;
+  margin-top: 2em;
+}
+.h3 {
+  font-size: 1.2rem;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #019ac0;
+  margin-top: 2.1em;
+}
+.h4 {
+  font-size: 0.9rem;
+  font-style: normal;
+  text-align: left;
+  line-height: 1;
+  font-weight: 700;
+}
+.h4.Ctr{
+  text-align: center;
+}
+.container {
+  overflow-x: scroll;
+}
+.image-box{
+  width: 100%;
+}
+.image-box img{
+  width:100%;
+  object-fit: cover;
+}
+.inline-item {
+  display: inline-block;
+  margin-top: 0.8em;
+}
+.inline-item img{
+  width: 100%;
+}
+.gallery {
+  display: grid;
+  grid-template-rows: auto;
+  grid-auto-columns: min-content;
+  grid-auto-flow: column;
+  grid-row-gap: 0.5em;
+  grid-column-gap: 0.5em;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+.gallery::-webkit-scrollbar  {
+    display: none;
+    height: 0;
+    width: 0;
+}
+.gallery img {
+  width: 97px;
+  vertical-align: middle;
+  border-radius: 0.5em;
+}
+.gallery.type-C img {
+  width: 150px;
+}
+.gallery.type-D img{
+  width: 350px;
+}
+.gallery.type-E img{
+  width: 350px;
+}
+.team{
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis:content;
+  margin: 0.8em;
+  justify-content: space-evenly;
+}
+.info{
+  padding: 1em;
+  min-height: 180px;
+  width: 138px;
+  margin: 0.8em;
+  border: 1px dashed #b1d6e6;
+}
+.info img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.info.big{
+  background-color: #f5fcff;
+  min-height: 350px;
+  width: 300px;
+  margin: 0.8em;
+  border: 0;
+}
+.info.big img{
+  width: 80%;
+}
+.info .c1{
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 0.9;
+  margin-top: 1.6em;
+}
+.info .c2{
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+/*
+  Styles for tablet
+*/
+@media only screen and (min-width: 600px) {
+  #fulTxt{
+    display: initial;
+  }
+.header .title{
+  font-size: 1.5rem;
+  line-height: 0.4;
+}
+.h2{
+  font-size: 1.6rem;
+}
+.h3{
+  font-size: 1.4rem;
+}
+.wrapper {
+  padding: 1em;
+}
+.content {
+  grid-template-rows: auto auto;
+  grid-auto-columns: 45% auto;
+  grid-auto-flow: column;
+}
+.content.X{
+  grid-template-columns: 49% 49%;
+  grid-auto-flow: row;
+  grid-gap: 0.8em 1.2em;
+}
+.content.B{
+  grid-template-rows: auto auto auto;
+}
+.content.C{
+  max-width: 50%;
+  float: left;
+}
+.content.C.L{
+  border-right: 1px dashed #019ac0;
+  padding: 0 0 0 0.8em;
+}
+.content.C.R{
+  padding: 0 0.8em 0 0;
+}
+.container.L{
+  justify-self: end;
+}
+.container.R{
+  justify-items: start;
+}
+.text-box{
+  margin: 0 0 0 1em;
+  border-radius: 0 0.5em 0.5em 0;
+  min-height: 220px;
+}
+.text-box-A.Clm2{
+column-count: 2;
+column-gap: 1em;
+}
+.text-box.B {
+  grid-row: 1/3;
+}
+.text-box.C {
+  grid-row: 1/4;
+}
+.text-box.D {
+  grid-row: 1/2;
+}
+.text-box.E {
+  margin: 0;
+  border-radius: 0;
+}
+.text-box.F {
+  margin: 0;
+  border-radius: 0;
+}
+.text-box.G {
+  margin: 0;
+  border-radius: 0;
+  grid-column: 1/3;
+  min-height: 150px;
+}
+.body {
+  padding-top: 0.8em;
+}
+.gallery.type-B {
+  grid-template-rows: auto auto;
+}
+.gallery.type-B img:nth-child(1){
+  grid-column: 1/3;
+  grid-row: 1/3;
+  width: 202px;
+}
+.gallery.type-C img {
+  width: 150px;
+}
+.gallery.type-E{
+
+}
+.gallery.type-E img{
+  width: 512px;
+}
+.info{
+  width: 162px;
+}
+}
+</style>
+</head>
+
+<body>
+  
+<div id="mySidenav" class="sidenav">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
+  </div>
+  <a href="#1" class="btn active">Overview 概览 </a>
+  <a href="#2" class="btn">Explore with Me 探索系列</a>
+  <a href="#3" class="btn">Grow with Me 成长系列</a>
+  <a href="#4" class="btn">Picture Books 绘本系列</a>
+  <a href="#5" class="btn">Small Talk 说话系列</a>
+  <a href="#6" class="btn">Solve with Me 解决问题系列</a>
+  <a href="#7" class="btn">Sing with Me 童谣系列</a>
+  <a href="#8" class="btn">Play with Me 游戏系列</a>
+  <a href="#9" class="btn">Posters 挂图系列</a>
+  <a href="#10" class="btn">Phonics Pack 语音套件</a>
+  <a href="#11" class="btn">Vocabulary Converters <br> 词汇转换卡</a>
+  <a href="#12" class="btn">My English Passports and Sticker Book 英语护照及贴纸本</a>
+  <a href="#13" class="btn">Reference Books 参考书</a>
+  <a href="#14" class="btn">AI Pen and D&amp;P <br>App AI 笔及迪迈小王子 App</a>
+  <a href="#15" class="btn">我们的教学理念</a>
+  <a href="#16" class="btn">我们的顾问</a>
+  <a href="#17" class="btn">我们的作者及插画师团队</a>
+</div>
+  
+<div class="header"> 
+  <a onclick="openNav()">
+    <img src="images/app/menu.svg" alt=""/> 
+  </a>
+  <p class="title"><span id="fulTxt">| 第一章 |</span> &nbsp; Overview 概览</p>
+  <a></a>
+</div>
+  
+<div class="wrapper">
+
+  <!-- It's a delimiter -->
+  <div id="1" class="h2">• D Mind &amp; the Prince 简介</div>
+  <hr class="line">
+  <div class="text-box-A body">
+    全新的 <b><i>D Mind &amp; the Prince</i></b> 是 <b>D Mind Education</b> 特别为怀孕妈妈以及0至6岁幼儿精心设计的英语学习历程，创作团队包括多位获奖作家及插画家，通过不断创作，缔造新经典，帮助孩子扩大世界视野、提升艺术品味、增强语言能力，以及掌握各种生活技能，为未来的社会培养出世界小公民。<br><br>
+    整个幼儿英语学习系统以轻松的沉浸式学习（<b>Immersive Learning</b>）模式和丰富的 <b><i>D Mind &amp; the Prince</i></b> 内容紧密贯穿，并率先引入“世界公民”等新时代概念，为幼儿营造外国儿童成长的英语环境，从小培养他们学习英语的兴趣，帮助他们装备自己，放眼世界！
+    
+  </div>
+  
+<!-- It's a delimiter -->
+    <div class="h2">• D Mind &amp; the Prince 幼儿英语学习系统资源一览</div>
+  <hr class="line">
+  <div class="image-box">
+    <img src="images/ch01/p02/001.jpg" alt=""/>
+  </div>
+  
+<!-- It's a delimiter -->
+    <div id="2" class="h3">Explore with Me 探索系列</div>
+  <hr class="line">
+  <div class="content X">
+    <div class="container">
+      <p class="h4">• Cloth Books–Shapes, Patterns  	&amp; Peep-Bo</p>
+      <div class="gallery type-B"> 
+        <img src="images/ch01/p03/001.jpg" alt=""/> 
+        <img src="images/ch01/p03/002.jpg" alt=""/> 
+        <img src="images/ch01/p03/003.jpg" alt=""/> 
+      </div>
+    </div>
+    <div class="container">
+      <p class="h4">• Board Books–Colours &amp; Seasons</p>
+      <div class="gallery type-B"> 
+        <img src="images/ch01/p03/004.jpg" alt=""/> 
+        <img src="images/ch01/p03/005.jpg" alt=""/> 
+      </div>
+    </div>
+    <div class="text-box G">
+      <p class="body">这一系列备有多款可爱的布书和硬页书，是专为婴儿而设的互动触感图书，让宝宝通过感官接触认识颜色、形状、图案等多个基本概念。</p>
+    </div>
+  </div>
+  
+<!-- It's a delimiter -->
+  <div id="3" class="h3">Grow with Me 成长系列</div>
+  <hr class="line">
+  <div class="content X">
+    <div class="container">
+      <p class="h4 Ctr">Board Books 01-08</p>
+      <div class="gallery type-B"> 
+        <img src="images/ch01/p03/006.jpg" alt=""/> 
+        <img src="images/ch01/p03/007.jpg" alt=""/> 
+        <img src="images/ch01/p03/008.jpg" alt=""/> 
+        <img src="images/ch01/p03/009.jpg" alt=""/> 
+      </div>
+    </div>
+    <div class="container">
+      <p class="h4 Ctr">Plush Toys &amp; Playmat</p>
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p03/014.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="text-box G">
+      <p class="body">这一系列着眼于孩子的成长过程，以及增强父母对早期语言学习的认识。书中涵盖多个亲子日常对话的字词和词组，方便父母随时运用。</p>
+    </div>
+  </div>
+  
+<!-- It's a delimiter -->  
+  <div id="4" class="h3">Picture Books 绘本系列</div>
+  <hr class="line">
+  <div class="content">
+    <div class="container">
+      <p class="h4">• Baby set 01-06</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch01/p04/001.jpg" alt=""/> 
+        <img src="images/ch01/p04/002.jpg" alt=""/> 
+        <img src="images/ch01/p04/003.jpg" alt=""/> 
+        <img src="images/ch01/p04/004.jpg" alt=""/> 
+        <img src="images/ch01/p04/005.jpg" alt=""/> 
+        <img src="images/ch01/p04/006.jpg" alt=""/> 
+      </div>
+    </div>
+      <div class="container">
+      <p class="h4">• Toddler set 01-22</p>
+      <div class="gallery type-B"> 
+        <img src="images/ch01/p04/007.jpg" alt=""/>
+        <img src="images/ch01/p04/008.jpg" alt=""/>
+        <img src="images/ch01/p04/009.jpg" alt=""/> 
+        <img src="images/ch01/p04/010.jpg" alt=""/> 
+        <img src="images/ch01/p04/011.jpg" alt=""/> 
+        <img src="images/ch01/p04/012.jpg" alt=""/> 
+        <img src="images/ch01/p04/013.jpg" alt=""/> 
+        <img src="images/ch01/p04/014.jpg" alt=""/> 
+        <img src="images/ch01/p04/015.jpg" alt=""/> 
+        <img src="images/ch01/p04/016.jpg" alt=""/> 
+        <img src="images/ch01/p04/017.jpg" alt=""/> 
+        <img src="images/ch01/p04/018.jpg" alt=""/> 
+        <img src="images/ch01/p04/019.jpg" alt=""/> 
+        <img src="images/ch01/p04/020.jpg" alt=""/> 
+        <img src="images/ch01/p04/021.jpg" alt=""/> 
+        <img src="images/ch01/p04/022.jpg" alt=""/> 
+        <img src="images/ch01/p04/023.jpg" alt=""/> 
+        <img src="images/ch01/p04/024.jpg" alt=""/> 
+        <img src="images/ch01/p04/025.jpg" alt=""/> 
+        <img src="images/ch01/p04/026.jpg" alt=""/> 
+        <img src="images/ch01/p04/027.jpg" alt=""/> 
+        <img src="images/ch01/p04/028.jpg" alt=""/> </div>
+    </div>
+    <div class="text-box B">
+      <p class="body">这个特别设计的策划，由著名儿童文学作家及插图师精心创作，结合激发想象的视觉设计与精心雕琢的文字，向孩子介绍促进世界进步的崭新意念：世界公民、数字原生代、绿色生活及应对人生挑战。</p>
+    </div>
+  </div>
+<!-- It's a delimiter -->  
+  <div id="5" class="h3">Small Talk 说话系列</div>
+  <hr class="line">
+  <div class="content B">
+    
+    <div class="container">
+      <p class="h4">• Self-care 01-10</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch01/p05/001.jpg" alt=""/> 
+        <img src="images/ch01/p05/002.jpg" alt=""/> 
+        <img src="images/ch01/p05/003.jpg" alt=""/> 
+        <img src="images/ch01/p05/004.jpg" alt=""/> 
+        <img src="images/ch01/p05/005.jpg" alt=""/> 
+        <img src="images/ch01/p05/006.jpg" alt=""/> 
+        <img src="images/ch01/p05/007.jpg" alt=""/> 
+        <img src="images/ch01/p05/008.jpg" alt=""/> 
+        <img src="images/ch01/p05/009.jpg" alt=""/> 
+        <img src="images/ch01/p05/010.jpg" alt=""/> 
+      </div>
+    </div>
+
+      <div class="container">
+      <p class="h4">• Social interaction 01-10</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch01/p05/011.jpg" alt=""/> 
+        <img src="images/ch01/p05/012.jpg" alt=""/> 
+        <img src="images/ch01/p05/013.jpg" alt=""/> 
+        <img src="images/ch01/p05/014.jpg" alt=""/> 
+        <img src="images/ch01/p05/015.jpg" alt=""/> 
+        <img src="images/ch01/p05/016.jpg" alt=""/> 
+        <img src="images/ch01/p05/017.jpg" alt=""/> 
+        <img src="images/ch01/p05/018.jpg" alt=""/> 
+        <img src="images/ch01/p05/019.jpg" alt=""/> 
+        <img src="images/ch01/p05/020.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="container">
+      <p class="h4">• Emotional awareness 01-10</p>
+      <div class="gallery type-B"> 
+        <img src="images/ch01/p05/021.jpg" alt=""/> 
+        <img src="images/ch01/p05/022.jpg" alt=""/> 
+        <img src="images/ch01/p05/023.jpg" alt=""/> 
+        <img src="images/ch01/p05/024.jpg" alt=""/> 
+        <img src="images/ch01/p05/025.jpg" alt=""/> 
+        <img src="images/ch01/p05/026.jpg" alt=""/> 
+        <img src="images/ch01/p05/027.jpg" alt=""/> 
+        <img src="images/ch01/p05/028.jpg" alt=""/> 
+        <img src="images/ch01/p05/029.jpg" alt=""/> 
+        <img src="images/ch01/p05/030.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="text-box C">
+      <p class="body">这一系列以孩子成长初期与父母之间的关系为重心，亦涉及与兄弟姊妹、朋友和老师之间的关系。孩子每一天都需要克服许多人生挑战，方能成为独立、自信的人。本系列主角Donut，通过30个故事，分享他处理挑战的经验：怎样与新朋友打破隔膜，怎样围绕话题交流，怎样尊重朋友之间的不同想法。小读者都可以Donut为榜样，学习运用适当的词组和沟通技巧，与人建立和谐关系。</p>
+    </div>
+  </div>
+  
+<!-- It's a delimiter -->  
+  <div id="6" class="h3">Solve with Me 解决问题系列</div>
+  <hr class="line">
+  <div class="content">
+    
+    <div class="container">
+      
+      <p class="h4">• Problem Solving 01-15</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch01/p06/016.jpg" alt=""/> 
+        <img src="images/ch01/p06/017.jpg" alt=""/> 
+        <img src="images/ch01/p06/018.jpg" alt=""/> 
+        <img src="images/ch01/p06/019.jpg" alt=""/> 
+        <img src="images/ch01/p06/020.jpg" alt=""/>
+        <img src="images/ch01/p06/021.jpg" alt=""/> 
+        <img src="images/ch01/p06/022.jpg" alt=""/> 
+        <img src="images/ch01/p06/023.jpg" alt=""/> 
+        <img src="images/ch01/p06/024.jpg" alt=""/> 
+        <img src="images/ch01/p06/025.jpg" alt=""/> 
+        <img src="images/ch01/p06/020.jpg" alt=""/> 
+        <img src="images/ch01/p06/027.jpg" alt=""/> 
+        <img src="images/ch01/p06/028.jpg" alt=""/> 
+        <img src="images/ch01/p06/029.jpg" alt=""/> 
+        <img src="images/ch01/p06/030.jpg" alt=""/> 
+      </div>
+    </div>
+
+      <div class="container">
+      <p class="h4">• Socializing 01-15</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch01/p06/001.jpg" alt=""/> 
+        <img src="images/ch01/p06/002.jpg" alt=""/> 
+        <img src="images/ch01/p06/003.jpg" alt=""/> 
+        <img src="images/ch01/p06/004.jpg" alt=""/> 
+        <img src="images/ch01/p06/005.jpg" alt=""/> 
+        <img src="images/ch01/p06/006.jpg" alt=""/> 
+        <img src="images/ch01/p06/007.jpg" alt=""/> 
+        <img src="images/ch01/p06/008.jpg" alt=""/> 
+        <img src="images/ch01/p06/009.jpg" alt=""/> 
+        <img src="images/ch01/p06/010.jpg" alt=""/> 
+        <img src="images/ch01/p06/011.jpg" alt=""/> 
+        <img src="images/ch01/p06/012.jpg" alt=""/> 
+        <img src="images/ch01/p06/013.jpg" alt=""/> 
+        <img src="images/ch01/p06/014.jpg" alt=""/> 
+        <img src="images/ch01/p06/015.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="text-box B">
+      <p class="body">这一系列共分 <i>Socializing</i> 及<i>Problem Solving</i> 两个主题。以儿童日常常见的问题为素材，让孩子了解一件事的正反两面。书中提到相关情绪反应和明智的应对策略，有助孩子自幼培养分析和调节情绪的能力。我们希望借此在孩子心中埋下一颗种子，让他们长大后成为世界公民，时时刻刻保持睿智冷静，判断不会局限于对与错。</p>
+    </div>
+  </div>
+  
+<!-- It's a delimiter -->  
+  <div id="7" class="h3">Sing with Me 童谣系列</div>
+  <hr class="line">
+  <div class="content">
+    <div class="container">
+      <p class="h4">&nbsp;</p>
+      <div class="gallery type-C"> 
+        <img src="images/ch01/p07/001.jpg" alt=""/> 
+        <img src="images/ch01/p07/002.jpg" alt=""/> 
+        <img src="images/ch01/p07/003.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="text-box D">
+      <p class="body">音乐能轻易打破语言及文化隔膜。童谣更明显有助语言学习及词汇记忆。这一系列涵盖多首动听有趣的童谣，一定可以让孩子张开耳朵，专注聆听，享受音乐带来的乐趣。</p>
+    </div>
+</div>  
+  
+<!-- It's a delimiter -->  
+  <div id="1" class="h3">Play with Me 游戏系列</div>
+  <hr class="line">
+  <div class="content">
+    
+  <div class="container">
+    <p class="h4 Ctr">• Cot Bumper 床围及睡前习惯表</p>
+    <div class="gallery type-E"> 
+      <img src="images/ch01/p07/004.jpg" alt=""/> 
+      <img src="images/ch01/p07/005.jpg" alt=""/>
+    </div>
+  </div>
+
+        <div class="text-box E">
+      <p class="body">双层床围的设计，贴心照顾宝宝的安全，加上前后两面有不同图案，宝宝长大后仍可继续采用。刚出生的宝宝对黑白图像最感兴趣，父母可选择 <b><i>Grow with Me</i></b> 系列一众可爱动物角色作为围侧。当宝宝长大，踏入6个月之后，喜欢色彩缤纷的图案，父母可翻转床围，展示睡前习惯的彩色图案。</p>
+    </div>
+  </div>
+  
+    <div class="content C L">
+      <div class="image-box">
+        <p class="h4 Ctr">• Singing Ah Meow 音乐咕咕喵</p>
+    <img src="images/ch01/p07/006.jpg" alt=""/>
+  </div>
+        <div class="text-box F">
+      <p class="body">电子玩偶 <b>Ah Meow</b> 能唱出多首经典童谣、摇篮曲和 <b><i>D Mind &amp; the Prince</i></b> 的主题曲，并具有录音功能呢！</p>
+    </div>
+  </div>
+  
+   <div class="content C R">
+      <div class="image-box">
+        <p class="h4 Ctr">• Alphabet Tracing Puzzles 字母拼图</p>
+    <img src="images/ch01/p07/007.jpg" alt=""/>
+      </div>
+        <div class="text-box F">
+      <p class="body">通过有趣的互动，字母拼图可引导孩子辨认字母及记住字母写法。每组拼图配备大小写字母卡、字词图卡，全部可独立使用，亦可以每个字母为单位结合使用。</p>
+    </div>
+  </div>
+  
+    <div class="content C L">
+    
+      <div class="image-box">
+        <p class="h4 Ctr">• Date and Weather Chart 日期及天气表</p>
+    <img src="images/ch01/p08/001.jpg" alt=""/>
+  </div>
+        <div class="text-box F">
+      <p class="body">电子玩偶 <b>Ah Meow</b> 能唱出多首经典童谣、摇篮曲和 <b><i>D Mind &amp; the Prince</i></b> 的主题曲，并具有录音功能呢！</p>
+    </div>
+  </div>
+  
+   <div class="content C R">
+      <div class="image-box">
+        <p class="h4 Ctr">• House Chores 家务清单</p>
+    <img src="images/ch01/p08/002.jpg" alt=""/>
+      </div>
+        <div class="text-box F">
+      <p class="body">通过有趣的互动，字母拼图可引导孩子辨认字母及记住字母写法。每组拼图配备大小写字母卡、字词图卡，全部可独立使用，亦可以每个字母为单位结合使用。</p>
+    </div>
+  </div>  
+  
+  <div class="content">
+    <div class="image-box">
+        <p class="h4 Ctr">• Story Plush Toys 故事毛绒玩具</p>
+        <img src="images/ch01/p08/003.jpg" alt=""/>
+    </div>
+        <div class="text-box E">
+      <p class="body">以每册故事的主角为造型，制作颜色抢眼、外形可爱的毛绒玩具，提升孩子的学习兴趣，让他们在角色扮演或讲故事时能更投入。</p>
+    </div>
+  </div> 
+  
+<!-- It's a delimiter -->  
+  <div id="9" class="h3">Posters 挂图系列 </div>
+  <hr class="line">
+  <div class="content X">
+    <div class="container">
+      <p class="h4 Ctr">• Set 1</p>
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p09/001.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="container">
+      <p class="h4 Ctr">• Set 2</p>
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p09/002.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="text-box G">
+      <p class="body">我们精心设计的挂图可促进孩子的语言学习，亦能帮助他们加深对世界、社区和个人的认识。</p>
+    </div>
+  </div>
+  
+  <!-- It's a delimiter -->  
+  <div id="10" class="h3">Phonics Pack 语音套件</div>
+  <hr class="line">
+  <div class="content X">
+    <div class="container">
+      <p class="h4 Ctr">• Letter and Sounds Poster</p>
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p09/003.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="container">
+      <p class="h4 Ctr">• Card Box–Sound, Word &amp; Sentence Cards</p>
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p09/004.jpg" alt=""> 
+      </div>
+    </div>
+    <div class="text-box G">
+      <p class="body">循序渐进及有系统的教学方法令孩子更容易掌握拼读的技巧。孩子更可以使用AI笔练习语音及拼读。</p>
+    </div>
+  </div>
+  
+<!-- It's a delimiter -->  
+  <div id="11" class="h3">Vocabulary Converters 词汇转换卡</div>
+  <hr class="line">
+  <div class="content">
+    <div class="image-box">
+ 
+        <img src="images/ch01/p10/001.jpg" alt=""/>
+    </div>
+        <div class="text-box E">
+      <p class="body">词汇转换卡除了具备一般认字卡的功能外，还增添英式和美式英语用语，配合AI笔能认识两种英语发音的不同。转换卡的设计能鼓励孩子“打开”眼睛及耳朵，从成长初期便开始习惯各种常见的英语词汇及其发音，消除语言隔膜。转换卡并加入多种记忆游戏和有趣活动，有助巩固所学及进行延伸学习。</p>
+    </div>
+  </div> 
+  
+<!-- It's a delimiter -->  
+  <div id="12" class="h3">My English Passports and Sticker Book 英语护照及贴纸本 </div>
+  <hr class="line">
+  <div class="content">
+    <div class="image-box">
+
+        <img src="images/ch01/p10/002.jpg" alt=""/>
+    </div>
+        <div class="text-box E">
+      <p class="body">要清楚理解和跟进孩子的学习进度，英语护照及父母贴纸本提供了有效的方法。孩子可以以此为起点，学习掌握和安排个人发展进度，按自己的喜好和需要设定学习目标。</p>
+    </div>
+  </div> 
+  
+<!-- It's a delimiter -->  
+  <div id="13" class="h3">Reference Books 参考书</div>
+  <hr class="line">
+  <div class="content">
+    <div class="image-box">
+        <img src="images/ch01/p11/001.jpg" alt=""/>
+    </div>
+    <div class="text-box E">
+      <p class="body">参考书系列共有三册，进一步丰富孩子的英语词汇，为作为数字新世代及世界小公民做好准备。游戏册收录八款经典游戏的玩法，均可在室内、室外进行。孩子可通过愉快的游戏，在自然的氛围中锻炼沟通技巧、大小肌肉的ZZ活动能力及多种生活技能。</p>
+    </div>
+  </div> 
+
+<!-- It's a delimiter -->  
+  <div id="14" class="h3">AI Pen and D&amp;P App</div>
+  <hr class="line">
+  <div class="content">
+    <div class="container">
+      <div class="gallery type-D"> 
+        <img src="images/ch01/p11/002.jpg" alt=""> 
+      </div>
+    </div>
+    
+    <div class="text-box D">
+      <p class="body">AI 笔不但具有点读发声、玩小游戏和录音等功能，以引发幼儿的学习兴趣，更能搜集幼儿使用教材的数据，通过迪迈小王子 APP，为家长分析幼儿的学习进度及提供学习建议。</p>
+    </div>
+</div> 
+  
+<!-- It's a delimiter -->
+  <div id="15" class="h2">• 我们的教学理念</div>
+  <hr class="line">
+  <div class="text-box-A Clm2 body"> 我们相信21世纪的孩子需要有良好的沟通能力；我们相信单是学母语并未能充分接触广阔的世界；我们相信学好英语能打开世界之门；我们相信孩子都是天生的语言家。 <br>
+    <br>
+婴儿时期，我们可以听到构成世界所有语言的600个辅音和200个元音。在一岁之内，大脑开始专注于接收我们最常听到的声音。婴儿开始就已经用母语牙牙学语，零至六岁更是口语发展黄金期 <br>
+<br>
+香港《幼儿园教育课程指引》中亦提到：“人类脑部研究显示，零至八岁是脑部发展的关键期，即是幼儿学习的最佳时候。环境对脑部发展起着重要的影响，要在幼儿阶段为幼儿提供安全、接纳和充满感官刺激的环境，对幼儿脑部发展有良好的影响，有利于未来的学习。” <br>
+<br>
+生物物理学家艾普斯坦（Herman T. Epstein）发现脑部的发展有几个突进期，而这些突进与人的学习能力成正比关系，他称此为Phrenoblysis。突进期每两年出现一次，人类脑部发展的第一个高峰期于二至四岁期间出现，故此，这时若为孩子提供适当的机会及刺激，他们的学习成效会更为显著。 <br>
+<br>
+但是，我们不要以为语言能力既然是天生的，那便不需要去经营。发展心理学家艾丽卡•霍夫（Erika Hoff）曾经提到：“任何人想要培养一个双语孩子，都一定要认识及掌握一门语言，并必须经常接触这门语言。” <br>
+<br>
+我们的顾问戴维•克里斯托教授也提到，阅读及书写要在具备听、讲两方面的能力后方可进行。双语教学可让幼儿能运用另一种语言来沟通，能听懂别人的话及表达自己的思想。所以，<em>D Mind &amp; the Prince</em> 的课程着重日常生活用语及地道词组，希望孩子能够学会一口地道英语。当中，我们加插了四个全新主题，与时俱进。 <br>
+<br>
+<strong>- Global Citizen（世界公民）<br>
+- Digital Native（数字原生代）<br>
+- Be green（绿色生活）<br>
+- Life Challenge人生挑战（具备各种生活技能的人）</strong>  <br>
+<br>
+而且更不局限于家中学习。除了家用系统外，我们更设有「亲子英语会所」，孩子在导师的带领下，学习及重温家用系统所有提及到的生活自理的细节和技巧，以及相关的英语表达方法。而「亲子游学团」，更是他们学以致用的好机会呢！ <br>
+<br>
+多角度及反复的学习，令孩子学得更有效率和更有成效。每一本绘本均提供一个多角度的学习模式，方便孩子及家长参考和遵循。不同的学习配套可以让家长在家打造“沉浸式学习”的英语环境。 <br>
+<br>
+以下是一个多角度学习模式的例子：<br>
+Share这本书是讲述 T-Rex 这只恐龙很喜欢吃桃子，但是，它却想独占整棵桃树，不愿意跟其他恐龙分享。它用尽一切方法吓退其他同伴，不让它们接近。不过，一条勇敢的小恐龙鼓起勇气问：“为何不可以分享”，T-Rex 没想到有此一问，顿时心中有愧，也认同自己的自私。最后，它跨出一步，才发现与人分享的乐趣。<br>
+家长在与孩子阅读此绘本时，可以在家附近贴上〈Feelings〉及〈Emotions〉这两张挂图，当发现恐龙T-Rex在情绪上有变化时，可立即利用挂图教导情感的形容词。在 Small Talk 这个系列中更有三本故事书及动画教导小朋友“分享”的重要性，通过小主角Donut在不同的情境中遇到不同的难题、以及解决方法，容易让小朋友代入角色，更易明白书中带出的道理。<br>
+在词汇学习上，Vocabulary Converters 也带出了书中插图的景物。丰富的插图也让孩子学会文字以外的知识。<br>
+书中有提及小恐龙在森林玩游戏的情况，Let&apos;s Play GAMES可让家长跟孩子讨论小恐龙的玩具和他们日常的玩具有什么异同呢？这是一个训练口语的好机会啊！由此可见，我们的绘本跟其他学习组件可灵活配搭使用，学习自然事半功倍呢！<br>
+<div class="inline-item">
+      <img src="images/ch01/p12/001.jpg" alt=""/>
+    </div>
+  </div>
+  <div class="image-box">
+      <img src="images/ch01/p12/002.jpg" alt=""/>
+  </div>
+    <div class="h2">Friendship, Life Challenges, Global Citizens</div>
+  <div class="image-box">
+    <br>
+      <img src="images/ch01/p13/001.jpg" alt=""/>
+  </div>
+
+<!-- It's a delimiter -->
+  <div id="16" class="h2">• 我们的顾问</div>
+  <hr class="line">
+  <div class="team">
+    <div class="info big">
+      <img src="images/ch01/p14/001.jpg" alt=""/>
+        <p class="c1">英国皇室学校 The Minors Nursery School</p>
+        <p class="c2">D Mind &amp; the Prince 由英国顶级的教育集团 Alpha Plus Group 旗下的幼儿园 The Minors Nursery School 担任幼儿教育顾问，务求幼儿从小拥有最优质的国际幼儿园式教育。</p>
+
+    </div>
+    <div class="info big">
+      <img src="images/ch01/p14/002.png" alt=""/>
+
+        <p class="c1">戴维•克里斯托教授</p>
+        <p class="c2">英国语言学大师戴维•克里斯托教授是英国 University of Bangor 语言学荣誉教授，同时也是一位作家和讲师。他著有逾百本英语教学和语言学的书籍，当中包括权威著作 The Cambridge Encyclopedia of the English Language，亦有创作诗歌、话剧、短篇故事、参考书籍等，是 D Mind &amp; the Prince 的英语教学和内容设计顾问。</p>
+
+    </div>
+  </div>
+  
+  <!-- It's a delimiter -->
+  <div id="17" class="h2">• 我们的作者及插画师团队</div>
+  <hr class="line">
+  <div class="team">
+    <div class="info">
+      <img src="images/ch01/p14/003.jpg" alt=""/>
+      <p class="c1">Jane Chapman</p>
+      <p class="c2">award-winning author and illustrator</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/004.jpg" alt=""/>
+      <p class="c1">Tim Warnes</p>
+      <p class="c2">award-winning children’s book author and illustrator</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/005.jpg" alt=""/>
+      <p class="c1">Georgie Birkett</p>
+      <p class="c2">winner of Booktrust Early Years Awards</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/006.jpg" alt=""/>
+      <p class="c1">Jenni Rope</p>
+      <p class="c2">winner of the Finnish Art Society’s William Thuring Prize</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/007.jpg" alt=""/>
+        <p class="c1">Alison McGhee</p>
+        <p class="c2">award-winning author and the New York Times bestselling author of Someday</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/008.jpg" alt=""/>
+        <p class="c1">Katrina Germein</p>
+        <p class="c2">bestselling picture book author whose work has been published worldwide continuously</p>
+    </div>
+    <div class="info">
+      <img src="images/ch01/p14/009.jpg" alt=""/>
+        <p class="c1">Deirdre McCarthy</p>
+        <p class="c2">recipient of the 2015 Excellence In Financial Literacy Education (EIFLE) Award</p>
+    </div>
+  </div>
+  <p></p>
+
+  <div class="text-box G">
+  </div>
+  
+</div>
+
+
+<script>
+//Script that highlights the links inside the sidebar
+var header = document.getElementById("mySidenav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+    
+//Script that controls the scrolling header
+(function(){
+
+  var doc = document.documentElement;
+  var w = window;
+  var prevScroll = w.scrollY || doc.scrollTop;
+  var curScroll;
+  var direction = 0;
+  var prevDirection = 0;
+  var header = document.getElementById('header');
+  var checkScroll = function() {
+
+    curScroll = w.scrollY || doc.scrollTop;
+    if (curScroll > prevScroll) { 
+      //scrolled up
+      direction = 2;
+    }
+    else if (curScroll < prevScroll) { 
+      //scrolled down
+      direction = 1;
+    }
+
+    if (direction !== prevDirection) {
+      toggleHeader(direction, curScroll);
+    }
+    
+    prevScroll = curScroll;
+  };
+
+  var toggleHeader = function(direction, curScroll) {
+    if (direction === 2 && curScroll > 52) { 
+      
+      header.classList.add('hide');
+      prevDirection = direction;
+    }
+    else if (direction === 1) {
+      header.classList.remove('hide');
+      prevDirection = direction;
+    }
+  };
+  
+  window.addEventListener('scroll', checkScroll);
+
+})();
+  
+//Script that controls the sidebar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  
+
+</script>
+</body>
+</html>
