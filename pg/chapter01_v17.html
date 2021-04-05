@@ -17,6 +17,10 @@ html, body, div, img {
   vertical-align: baseline;
 }
   
+  #fulTxt{
+    display: none;
+  }
+  
 .header {
   display: flex;
   flex-grow: 1; 
@@ -56,7 +60,7 @@ html, body, div, img {
 .header .title{
   display:block;
   flex-grow: 1;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 0.4;
   font-weight:700;
   text-align: center;
@@ -70,14 +74,15 @@ html, body, div, img {
   left: 0;
   background-color: rgb( 17, 17, 17);
   overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   transition: 0.1s ease;
-  padding: 4em 0 ;
+  //padding: 2em 0 ;
 }
 
 .sidenav .btn {
-  padding: 0.6em 0.8em;
+  padding: 0.6em 0.9em;
   text-decoration: none;
-  font-size: 1em;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -89,13 +94,18 @@ html, body, div, img {
 }
 
 .sidenav .closebtn {
-  position: absolute;
-  width: 52px;
+  display: block;
+  background-color: rgb( 17, 17, 17);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  width: 280px;
   height: 52px;
+  margin-bottom: 1em;
   top: 0;
-  right: 0.2em;
 }
-  
+  .sidenav .closebtn img{
+    margin-left: 14em;
+  }
 .wrapper {
   padding: 0.5em;
   margin-top: 2.5em;
@@ -245,6 +255,13 @@ html, body, div, img {
   Styles for tablet
 */
 @media only screen and (min-width: 600px) {
+  #fulTxt{
+    display: initial;
+  }
+.header .title{
+  font-size: 1.5rem;
+  line-height: 0.4;
+}
 .h2{
   font-size: 1.6rem;
 }
@@ -346,9 +363,9 @@ column-gap: 1em;
 <body>
   
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+ <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
     <img src="images/app/close.svg" alt=""/>   
-  </a>
+  </div>
   <a href="#" class="btn active">D Mind &amp; the Prince 简介 </a>
   <a href="#" class="btn">D Mind &amp; the Prince <br>幼儿英语学习系统资源一览 </a>
   <a href="#" class="btn">Explore with Me 探索系列</a>
@@ -374,7 +391,7 @@ column-gap: 1em;
   <a onclick="openNav()">
     <img src="images/app/menu.svg" alt=""/> 
   </a>
-  <p class="title">| 第一章 | &nbsp; Overview 概览</p>
+  <p class="title"><span id="fulTxt">| 第一章 |</span> &nbsp; Overview 概览</p>
   <a></a>
 </div>
   
