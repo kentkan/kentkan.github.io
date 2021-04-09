@@ -1,71 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <style>
 .overlay {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 900;
+  z-index: 200;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
   transition: 0.5s;
 }
-  
-  .overlay div{
-    /*background-color:brown;*/
-  }
-  
-.parent {
-  width: 375px;
-  height: 261px;
-  overflow: scroll;
+.closebtn {
+  position: absolute;
+  right: 1.5em;
+  top: 0.5em;
+  background-color: rgba( 17, 17, 17, 0.4);
+  border-radius: 50%;
+  z-index: 100;
+  width: 52px;
+  height: 52px;
 }
-.child {
+.img-box {
   width: 100%;
   height: 100%;
-  background-color: black; /* fallback color */
-  background-image: url("images/ch01/p02/001.jpg");
-  background-size: contain;
-  transform-origin: 0 0;
-  transition: all .5s;
+  overflow: scroll;
+}
+.box img{
+  object-fit: contain;
 }
 </style>
 </head>
 <body>
 <div id="myNav" class="overlay">
-  <div class="parent">
-    <div class="child" id="poster"></div>
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
   </div>
-  <div>
-    <button type="button" onclick="zoomin()">Zoom In</button>
-    <button type="button" onclick="zoomout()">Zoom Out</button>
+  <div class="img-box" id="img-box">
+      <img src="images/ch01/p02/001.jpg" alt=""/> 
   </div>
 </div>
+  
 <script>
-    function zoomin(){
-        var myImg = document.getElementById("poster");
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
- 
-        myImg.style.transform = "scale(2)";
-              myImg.scrollLeft =100;
-  myImg.scrollTop = 100;
-
-    }
-    function zoomout(){
-        var myImg = document.getElementById("poster");
-        myImg.style.transform = "scale(1)";
-         myImg.scrollTop = 0;
- myImg.scrollLeft = 0;
-    }
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
 </script>
+  
 </body>
 </html>
