@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+ .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.35s;
+}
+.overlay .closebtn {
+  position: absolute;
+  z-index: 110;
+  left: 1em;
+  top: 1em;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgba( 17, 17, 17, 0.15);
+}
+.img-box {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.img-box img {
+  object-fit: cover;
+}
+.header {
+  display: flex;
+  flex-grow: 1; 
+	position: fixed;
+	height: 52px;
+  top: 0;
+	width: 100%;
+	z-index: 90;
+  color: #ffffff;
+	background: #019ac0;
+}
+.header.hide {
+	top: -53px;
+}
+.header a {
+  display:block;
+  flex-basis: 52px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 0.5em;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 52px;
+  text-decoration: none;
+}
+.header a:nth-of-type(1){
+  background-color: #0f89a7;
+  cursor:pointer;
+}
+.header img{
+  width: auto;
+  heigth: auto;
+  margin: auto;
+}
+.header .title{
+  display:block;
+  flex-grow: 1;
+  font-size: 1.35rem;
+  line-height: 0.5;
+  font-weight:700;
+  text-align: center;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 95;
+  top: 0;
+  left: 0;
+  background-color: rgb( 17, 17, 17);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 0.15s;
+}
+.sidenav::-webkit-scrollbar  {
+    display: none;
+    height: 0;
+    width: 0;
+}
+.sidenav .btn {
+  display: block;
+  padding: 0.6em 0.9em;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-decoration: none;
+  color: #818181;
+  transition: 0.3s;
+}
+.sidenav .active, .sidenav .btn:hover {
+  background-color: #019ac0;;
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  display: block;
+  background-color: rgb( 17, 17, 17);
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100;
+  width: 280px;
+  height: 52px;
+  margin-bottom: 1em;
+  top: 0;
+}
+.sidenav .closebtn img{
+  height: 46px;
+  margin-left: 14em;
+  margin-top: 0.2em;
+}
+.mgfr{
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 50%;
+  background-color: rgba( 17, 17, 17, 0.15);
+  pointer-events: none;
+}
