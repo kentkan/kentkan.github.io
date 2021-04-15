@@ -601,29 +601,25 @@ function awaitClose() {
   
 //Script that open and close sidebar
 function openNav() {
-    document.body.style.height = "100%";
-  document.body.style.overflow = "hidden";
   document.getElementById("mySidenav").style.width = "280px";
 }
 
 function closeNav() {
-  document.body.style.height = "auto";
-  document.body.style.overflow = "auto";
   document.getElementById("mySidenav").style.width = "0";
 }
   
 //Script that enlarge images
 function openImg(element) {
-  document.body.style.height = "100%";
-  document.body.style.overflow = "hidden";
   document.getElementById("fulImg").src = element.src;
   document.getElementById("myNav").style.width = "100%";
+  document.body.style.height = "100%";
+  document.body.style.overflow = "hidden";
 }
 
 function closeImg() {
-  document.getElementById("myNav").style.width = "0%";
   document.body.style.height = "auto";
   document.body.style.overflow = "auto";
+  document.getElementById("myNav").style.width = "0%";
 }
 </script>
 </body>
