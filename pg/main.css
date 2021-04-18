@@ -17,7 +17,6 @@ html, body, div, img {
   font-family: "Microsoft JhengHei", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   vertical-align: baseline;
 }
-
 #fulTxt{
   display: none;
 }
@@ -35,6 +34,7 @@ html, body, div, img {
   padding: 0 1.2em 1em 1.2em;
   margin: 1em 0 0 0;
   border-radius: 0.5em;
+  align-self:stretch;
 }
 .text-box-A{
   padding: 0 0.8em;
@@ -46,6 +46,22 @@ html, body, div, img {
   text-align: left;
   line-height: 1.6;
 }
+.body span{
+  font-weight: 800;
+  color: #004898;
+}
+.spc{
+  content: "";
+   display: block;
+   margin: 0.4em 0;
+}
+.indTxt{
+  display: grid;
+  grid-template-columns: 1.8em 90%;
+  grid-auto-rows: auto;
+  grid-row-gap: 0.8em;
+  grid-column-gap: 0.3em;
+}
 .line-break{
   height:2em;
 }
@@ -55,6 +71,11 @@ html, body, div, img {
   height: 10px;
   border: 0;
   box-shadow: 0 10px 10px -10px #bdc7ca inset;
+}
+div.rule {
+  margin: 1.6em 0 1.1em;
+  height: 1px;
+  background: #dfdfdf;
 }
 .h2{
   font-size: 1.35rem;
