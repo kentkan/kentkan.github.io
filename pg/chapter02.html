@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="ui.css"> 
+<link rel="stylesheet" type="text/css" href="main.css"> 
+  
+<style>
+  .header{
+    background: #b8d117;
+  }
+  .header a:nth-of-type(1){
+    background-color: #a4bd01;
+  }
+  .h3 {
+    color: #a4bd01;
+  }
+ .sidenav .active, .sidenav .btn:hover {
+    background-color: #a4bd01;;
+  }
+  .text-box{
+    background-color: #fdfef7;
+  }
+</style>
+  
+</head>
+
+<body>
+  
+<!-- It's a delimiter --> 
+<div id="overlay" class="overlay">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeImg()">     <img src="images/app/magn0.svg" alt=""/> 
+  </div>
+  <div class="img-box"  id="img-box"> 
+    <img src="images/app/empty.png" id="fulImg" alt=""/> 
+  </div>
+</div>  
+  
+<!-- It's a delimiter -->
+<div id="mySidenav" class="sidenav">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
+  </div>
+  <a href="#1" class="btn active">Cloth Books 布书 </a>
+  <a href="#2" class="btn">Board Books 硬页书</a>
+</div>
+  
+<!-- It's a delimiter --> 
+<div class="header"> 
+  <a onclick="openNav()">
+    <img src="images/app/menu.svg" alt=""/> 
+  </a>
+  <p class="title"><span id="fulTxt">| 第二章 |</span> &nbsp; 探索系列</p>
+  <a></a>
+</div>
+  
+<div class="wrapper">
+  
+<!-- It's a delimiter -->
+  <div class="text-box-A body">
+    这一系列备有多款可爱的布书和硬页书，是专为婴儿而设的互动触感图书，让宝宝通过感官接触认识颜色、形状、图案等多个基本概念。
+  </div>
+
+<!-- It's a delimiter -->  
+  <div class="line-break" id="1"></div >
+  <div class="h3">Cloth Books 布书</div>
+  <hr class="line">
+  <div class="content">
+    <div class="container">
+      <p class="h4">&nbsp;</p>
+      <div class="gallery type-C"> 
+        <img src="images/ch02/p15/001.jpg" alt=""/> 
+        <img src="images/ch02/p15/002.jpg" alt=""/> 
+        <img src="images/ch02/p15/003.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="text-box D">
+      <p class="body">布书的设计立体化，当中有不同的质感物料，可以让孩子用小指头去接触，刺激他们的触感，增加阅读的兴趣。</p>
+    </div>
+</div>  
+  
+  
+  <!-- It's a delimiter -->  
+  <div class="line-break" id="2"></div >
+  <div class="h3">Board Books 硬页书</div>
+  <hr class="line">
+  <div class="content">
+    <div class="container">
+      <p class="h4">&nbsp;</p>
+      <div class="gallery type-C"> 
+        <img src="images/ch02/p15/004.jpg" alt=""/> 
+        <img src="images/ch02/p15/005.jpg" alt=""/> 
+      </div>
+    </div>
+    
+    <div class="text-box D">
+      <p class="body">两本硬页书，一本介绍颜色，一本介绍季节；书内设有贴纸页及小游戏，小朋友可寓学习于游戏中。硬皮的设计方便年幼的孩子自行翻页，增加阅读的乐趣。</p>
+    </div>
+</div>  
+  
+
+  <p></p>
+
+  <div class="text-box G">
+  </div>
+  
+</div>
+  
+<script>
+  
+//Script that highlights the links of the sidebar
+var header = document.getElementById("mySidenav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  awaitClose();
+  });
+}
+
+function awaitClose() {
+  setTimeout(function(){ closeNav(); }, 400);
+}  
+  
+//Script that open and close sidebar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  
+//Script that enlarge images
+function openImg(element) {
+  document.getElementById("fulImg").src = element.src;
+  document.getElementById("myNav").style.width = "100%";
+  document.body.style.height = "100%";
+  document.body.style.overflow = "hidden";
+}
+
+function closeImg() {
+  document.body.style.height = "auto";
+  document.body.style.overflow = "auto";
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+</html>
