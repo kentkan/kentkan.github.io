@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>| 第七章 | 童谣系列</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="ui.css"> 
+<link rel="stylesheet" type="text/css" href="main.css"> 
+  
+<style>
+  .content {
+    align-items: center;
+  }
+  .header{
+    background: #265c85;
+  }
+  .header a:nth-of-type(1){
+    background-color: #154971;
+  }
+  .h3 {
+    color: #639841;
+  }
+  .h3 span{
+    color: #000000;
+  }
+  .h3.r span{
+    background-color: #e72434;
+  }
+  .h4 {
+    color: #639841;
+    font-size: 1.2rem;
+  }
+  .h4 span{
+    color: #000000;
+  }
+  .sidenav .active, .sidenav .btn:hover {
+    background-color: #265c85;;
+  }
+  .text-box{
+    background-color: #fcfcfb;
+  }
+  .gallery.type-A img{
+    width: 128px;
+  }
+  /*
+    Styles for tablet
+  */
+  @media only screen and (min-width: 600px) {
+    .content {
+      grid-template-rows: 1fr;
+    }
+  }
+</style>  
+  
+</head>
+
+<body>
+  
+<!-- It's a delimiter --> 
+<div id="overlay" class="overlay">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeImg()">     
+    <img src="images/app/magn0.svg" alt=""/> 
+  </div>
+  <div class="img-box"  id="img-box"> 
+    <img src="images/app/empty.png" id="fulImg" alt=""/> 
+  </div>
+</div>  
+  
+<!-- It's a delimiter -->
+<div id="mySidenav" class="sidenav">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
+  </div>
+  <a href="#1" class="btn active">Book 1</a>
+  <a href="#2" class="btn">Book 2</a>
+  <a href="#3" class="btn">Book 3</a>
+</div>
+  
+<!-- It's a delimiter --> 
+<div class="header"> 
+  <a onclick="openNav()">
+    <img src="images/app/menu.svg" alt=""/> 
+  </a>
+  <p class="title"><span id="fulTxt">| 第七章 |</span> 童谣系列</p>
+  <a></a>
+</div>
+  
+<div class="wrapper">
+<p></p>
+<!-- It's a delimiter -->
+<div class="text-box-A body">这个系列一共有3册，选编了多首经典童诗和儿歌。除了歌词外，我们还加插了每首儿歌背后的创作故事，更设有特别音效的版本及钢琴乐谱呢！孩子喜欢肢体活动，当家长与小朋友一起唱歌时，更可根据书里的建议活动一起做动作。</div>
+
+<!-- It's a delimiter --> 
+<div class="line-break" id="1"></div >
+<hr class="line">
+
+<!-- It's a delimiter -->  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>Book 1</span></p>
+      <div class="gallery type-A"> 
+        <img src="images/ch07/p09/097.jpg" alt=""/> 
+        <img src="images/ch07/p09/100.jpg" alt=""/> 
+        <img src="images/ch07/p09/101.jpg" alt=""/> 
+        <img src="images/ch07/p09/103.jpg" alt=""/> 
+        <img src="images/ch07/p09/098.jpg" alt=""/> 
+        <img src="images/ch07/p09/102.jpg" alt=""/> 
+        <img src="images/ch07/p09/099.jpg" alt=""/> 
+      </div>
+    </div>
+</div>
+ 
+<!-- It's a delimiter -->    
+<div class="line-break" id="2"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>Book 2</span></p>
+      <div class="gallery type-A"> 
+        <img src="images/ch07/p09/104.jpg" alt=""/> 
+        <img src="images/ch07/p09/107.jpg" alt=""/> 
+        <img src="images/ch07/p09/108.jpg" alt=""/> 
+        <img src="images/ch07/p09/110.jpg" alt=""/> 
+        <img src="images/ch07/p09/105.jpg" alt=""/> 
+        <img src="images/ch07/p09/109.jpg" alt=""/> 
+        <img src="images/ch07/p09/106.jpg" alt=""/> 
+      </div>
+    </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="3"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>Book 3</span></p>
+      <div class="gallery type-A"> 
+        <img src="images/ch07/p09/111.jpg" alt=""/> 
+        <img src="images/ch07/p09/114.jpg" alt=""/> 
+        <img src="images/ch07/p09/115.jpg" alt=""/> 
+        <img src="images/ch07/p09/117.jpg" alt=""/> 
+        <img src="images/ch07/p09/112.jpg" alt=""/> 
+        <img src="images/ch07/p09/116.jpg" alt=""/> 
+        <img src="images/ch07/p09/113.jpg" alt=""/> 
+      </div>
+    </div>
+</div>  
+
+<p></p>
+
+<div class="content">
+  <div class="text-box G"></div>
+</div>
+  
+</div>
+  
+<script>
+  
+//Script that highlights the links of the sidebar
+var header = document.getElementById("mySidenav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  awaitClose();
+  });
+}
+
+function awaitClose() {
+  setTimeout(function(){ closeNav(); }, 400);
+}  
+  
+//Script that open and close sidebar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  
+//Script that enlarge images
+function openImg(element) {
+  document.getElementById("fulImg").src = element.src;
+  document.getElementById("myNav").style.width = "100%";
+  document.body.style.height = "100%";
+  document.body.style.overflow = "hidden";
+}
+
+function closeImg() {
+  document.body.style.height = "auto";
+  document.body.style.overflow = "auto";
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+</body>
+</html>

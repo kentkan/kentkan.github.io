@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>| 第十章 | 语音套件</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="ui.css"> 
+<link rel="stylesheet" type="text/css" href="main.css"> 
+  
+<style>
+  .content {
+    align-items: center;
+  }
+  .header{
+    background: #59c4a3;
+  }
+  .header a:nth-of-type(1){
+    background-color: #3fb28e;
+  }
+  .h3 {
+    color: #3fb28e;
+    font-size: 1em;
+    margin: 0.6em 0;
+  }
+  .h3 span{
+    color: #ffffff;
+  }
+  .h3.r span{
+    background-color: #59c4a3;
+    border-radius: 0.5em;
+    padding: 0.1em 0.5em;
+  }
+  .h4{
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #000000;
+  }
+  .sidenav .active, .sidenav .btn:hover {
+    background-color: #59c4a3;
+  }
+  .text-box{
+    background-color: #fffbf6;
+  }
+  .indTxt{
+    grid-template-columns: 0.8em 90%;
+    grid-column-gap: 0;
+    grid-row-gap: 0.4em;
+    padding-left: 0.6em;
+  }
+  .indTxt.A{
+    grid-column-gap: 0.5em;
+  }
+  .gallery.type-A img{
+    width: 128px;
+  }
+  .inline-item.A {
+    padding: 0 2em;
+  }
+  .image-box.A {
+    padding: 0;
+  } 
+  .wid-spc{
+    letter-spacing: 0.2em;
+  }
+  .tips{
+    border-radius: 1em;
+    border: 2px solid #59c4a3;
+    padding: 1em 1em 2em;
+  }
+  /* Styles for tablet */
+  @media only screen and (min-width: 600px) {
+    .content {
+      grid-auto-columns: 50% auto;
+    }
+    .image-box.A{
+    padding: 0 3em;
+    }
+    .inline-item.A {
+      padding: 0 3em;
+    }
+  }
+</style>  
+  
+</head>
+
+<body>
+  
+<!-- It's a delimiter --> 
+<div id="overlay" class="overlay">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeImg()">     <img src="images/app/magn0.svg" alt=""/> 
+  </div>
+  <div class="img-box"  id="img-box"> 
+    <img src="images/app/empty.png" id="fulImg" alt=""/> 
+  </div>
+</div>  
+  
+<!-- It's a delimiter -->
+<div id="mySidenav" class="sidenav">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
+  </div>
+  <a href="#1" class="btn active">什么是“原音拼合法”？</a>
+  <a href="#2" class="btn">使用方法</a>
+  <div class="til">组合发音</div>
+  <a href="#3" class="btn">Set A</a>
+  <a href="#3" class="btn">Set B</a>
+  <a href="#4" class="btn">Set C</a>
+  <a href="#4" class="btn">Set D</a>
+</div>
+  
+<!-- It's a delimiter --> 
+<div class="header"> 
+  <a onclick="openNav()">
+    <img src="images/app/menu.svg" alt=""/> 
+  </a>
+  <p class="title"><span id="fulTxt">| 第十章 |</span> 语音套件</p>
+  <a></a>
+</div>
+  
+<div class="wrapper">
+
+<!-- It's a delimiter -->
+  <div class="line-break" id="1"></div >
+  <hr class="line">
+  <div class="text-box-A Clm2 body"> 教育工作者常说：“孩子今天的说话能力，就是日后 阅读和书写能力的基础”。然而，这只说出了情况的一部分。孩子在三岁之前可以通过儿歌和故事加强音韵觉识的能力。三岁之后，已能准备好学习字母及音素的关系了。能掌握字母及音素的关系，也就能加强阅读和书写能力。<br class="spc">
+    
+  要成功地学会阅读英语，孩子必须将词汇转化为发音后再消化。由于英语以字母来表示读音，因此，让孩子学习字母与发音之间的关连相当重要。<br class="spc">
+    
+  “原音拼合法”是其中一种教授两者关连的方法，有助于孩子学习阅读。孩子会学习每个字母的发音，以及字母的不同排列会如何改变词汇的意思。<br class="spc">
+    
+  <div class="inline-item">
+      <img src="images/ch10/p17/001.jpg" alt=""/>
+  </div><br class="spc">
+    
+  <b>什么是“原音拼合法”？</b> <br class="spc">
+    
+  英语是由 44 个不同发音组成。原音拼合法就是直接教授字母和音素的关系，例如， ch、u、p、sh、i、o、t 等分别代表的音素，又例如，/ i / 音所代表的可能拼写法；然后辅以拼合（blending）和分拆（segmenting） 的训练，例如，训练孩子将 sh-i-p 分别代表的音素拼凑成英文字 ship 的发音，同时训练听到 ship 的发音时，将它分拆成 sh、i、p 所代表的音素。孩子接受过有系统的训练后，便能逐渐掌握朗读和听写生字的能力。<br class="spc">
+    
+  一开始时，本教材会教孩子一种发音的读法，例如，<br class="spc">
+    
+  <div class="inline-item A">
+    <img src="images/ch10/p17/002.jpg" alt=""/>
+    <div class="h4">发音卡上有一只老鼠（mouse）和字母“m”，孩子便可练习发“mmm”音；</div>
+  </div> 
+    
+  <div class="inline-item A">
+    <img src="images/ch10/p17/003.jpg" alt=""/>
+    <div class="h4">发音卡上有一条蛇（snake）及字母“s”，孩子便可练习发“sss”音；</div>
+  </div>   <br class="spc"> 
+
+  让孩子将“mmm”与“mouse”、以及“s”与“snake”连结起来迅速发音，并重复尝试，直至能以一定速度读出整组发音，然后练习以更快速度读出。当他们能够迅速读出一些发音时，便可以将这些发音拼合起来组成词汇。父母示范朗读词汇时，不妨以夸张的方式读出。<br class="spc">
+    
+  <div class="inline-item">
+    <img src="images/ch10/p17/004.jpg" alt=""/>
+  </div>    
+    
+  孩子能组合发音后，我们便会展示一些他们可以读的句子。这个步骤都十分重要，因为，当孩子看到会读字母组成的句子便能发现，只要开始学习字母发音，便马上具备阅读能力。<br class="spc">
+    
+  <div class="inline-item">
+    <img src="images/ch10/p17/005.jpg" alt=""/>
+  </div>    
+    
+  有研究显示，经常阅读的孩子往往在学校表现较佳， 因此，我们希望孩子至六至七岁时，已是一个能流畅阅读的爱书人。
+  <br class="spc">
+
+  </div>
+
+  
+<!-- It's a delimiter -->
+  <div class="line-break" id="2"></div >
+  <div class="rule"></div>
+  <div class="text-box-A Clm2 body"> 
+    
+  <b>使用方法</b><br class="spc">
+
+  下文将详述使用方法，协助家长使用D Mind &amp; the Prince Phonics Pack内的发声挂图、发声卡、词汇卡和句子卡。家长可通过AI笔帮助孩子学习发音，继而让孩子将发音组合成词汇和阅读句子。<br class="spc">
+    
+  套件内的资源包括：<br class="spc">
+    
+  <div class="inline-item">
+      <img src="images/ch10/p18/006.jpg" alt=""/>
+  </div>  
+
+    
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      首先，孩子利用AI笔触点发音卡或挂图上的字母，聆听每个字母的发音，然后仿读。请家长按照组合所示次序教导孩子，并提醒他们，读字母的发音而不是字母本身，即“a”要读成apple中的 <i>a</i>，而不是ay。
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      孩子学会组合第一组发音（<i class="wid-spc">a, s, m, o, d, g, t, i, p, n</i>）后，便可协助他们组合发音读出词汇。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      当孩子能将发音组合成词汇，便开始读句子，图片有助于他们理解句子意思。
+    </div>
+  </div>
+<br>
+  <div class="h3 r"> <span>与孩子一起读第一组的发音</span></div>    
+  <div class="inline-item">
+      <img src="images/ch10/p18/007.jpg" alt=""/>
+  </div>  
+    
+    <div class="h3 r"> <span>使用发音卡及海报</span></div>
+    家长可指着发音卡或挂图的“m”，然后合紧双唇发出mmmmmm音，或以AI笔逐一触点字母发音，引导孩子专心聆听及仿读。<br class="spc">
+
+    发出mmmmmm，然后告诉孩子图片中的是mouse，再读出mmmmmmouse。<br class="spc">
+    
+  </div>  
+
+<!-- It's a delimiter -->
+  <div class="line-break" id="3"></div >
+  <div class="rule"></div>
+  <div class="text-box-A Clm2 body"> 
+    
+  <div class="h3 r"> <span>组合发音</span></div> 
+
+  孩子掌握第一组发音（<i class="wid-spc">a, s, m, o, d, g, t, i, p, n</i>），而且不论顺序与否都能迅速读出来时，表示他们已能将发音组合并读出词汇。<br class="spc">
+    
+  以下为发音组合活动的步骤指示︰当孩子能以任何次序快速读出组内字母的发音时，可按下列步骤所示的发音组合进行练习，至完成所有分组。家长可利用AI笔触点卡或挂图上的点或线便可聆听各个发音，触点词汇便可聆听整个词汇的读音。<br class="spc">
+    
+  学习组合发音需要时间，即使孩子未能马上掌握也无须担心，继续教孩子下一组发音便可。<br class="spc">
+    
+  当孩子能够组合所有分组的发音，代表他们已掌握拼读的技巧！<br class="spc">
+  <p></p>
+  
+  <div class="inline-item">
+      <img src="images/ch10/p19/008.jpg" alt=""/>
+  </div>  
+
+  <span style="color:#59c4a3; font-weight:700">步骤 1</span> 以口读方式组合发音（不使用词汇卡）<br class="spc">
+  and, on, sit, spit, got, it, did, in, stop, pants, sad, pat, man, tip, sat, sand, pig, at<br class="spc">
+  家长示范读出如下的发音和词汇，请孩子观察发音时嘴巴的形状：<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      以夸张的形式读出发音，如 a-n-d，请孩子跟着做。
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      先读出发音，再发全字读音，如 a-n-d, and，请孩子跟着做。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      以夸张的形式读出发音和词汇，并重复数次。有需要可解释词汇的意思。
+    </div>
+  </div>
+  <p></p>
+    
+  <span style="color:#59c4a3; font-weight:700">步骤 2</span> 以词汇卡组合发音<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      重温发音<br>
+      <i class="wid-spc">a s m o d g t i p n</i>
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      确定孩子能迅速读出发音。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      请孩子指着发音并读出词汇。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      and, on, sit, spit, got, it, did, in, stop, pants, sad, pat, man, tip, sat, sand, pig 和 at 都是孩子掌握 Set A 的发音后能够读的词汇。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      请孩子说出发音和朗读词汇（无须协助下完成）。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      以夸张的发音重复朗读词汇，并请孩子跟着做。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      如有需要，可利用AI笔触点卡上的点收听发音，或触点词汇收听全字读音。
+    </div>
+  </div>
+  <p></p>
+    
+   <span style="color:#59c4a3; font-weight:700">步骤 3</span> 阅读句子<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      当孩子能读出上列发音和发音组成的词汇时，便有能力读出一些简单句子。例如：<br class="spc">
+      1. A man sits on a pig.<br class="spc">
+      2. Dad is sad.<br class="spc">
+      3. A man and a pot.<br class="spc">
+      4. A dog sat on a mat.<br class="spc">
+    </div>
+    
+  </div>  
+  <p></p>
+  <div class="inline-item">
+      <img src="images/ch10/p19/009.jpg" alt=""/>
+  </div>   
+    
+  <span style="color:#59c4a3; font-weight:700">步骤 1</span> 与孩子一起读 <b>Set B</b> 的发音<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      重温发音：<br>
+      <i class="wid-spc">a s m o d g t i p n b e h f l u c k <u>ck</u></i>
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      读出挂图上字母的发音。 
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      确定孩子能迅速读出这些发音。 
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      教导孩子以组合发音的方式练习这些词汇： <br>
+      bat, bag, sun, had, men, Ja<u>ck</u>, mend, up, lift, ne<u>ck</u>, let, has, lot, Mum, help, tu<u>ck</u>, can, bit, big, get, bib, lap, slump, li<u>ck</u>, hand, bed, hot, si<u>ck</u>, must, ask, ten, fast, do<u>ck</u>, clo<u>ck</u>, bus, stu<u>ck</u>, bla<u>ck</u>, had, his, du<u>ck</u> 
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      教导孩子认识有时两个字母连在一起代表一个发音，例如，上面划有底线的字母为二合字母，是一个单音。
+    </div>
+  </div>
+  <p></p>
+  
+  <span style="color:#59c4a3; font-weight:700">步骤 2</span> 阅读句子<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      当孩子能读出上列发音和发音组成的词汇时，便有能力读一些简单句子。<br class="spc">
+      1. A du<u>ck</u> is on a bus.<br class="spc">
+      2. Ja<u>ck</u> has a big bag.<br class="spc">
+      3. A bat mends a bib.<br class="spc">
+      4. Mum had a big bla<u>ck</u> clo<u>ck</u>.<br class="spc">
+    </div>
+  </div>
+  <p></p>   
+    
+  </div>  
+
+  
+<!-- It's a delimiter -->
+  <div class="line-break" id="4"></div >
+  <div class="rule"></div>
+  <div class="text-box-A Clm2 body"> 
+    
+ <div class="inline-item">
+      <img src="images/ch10/p20/010.jpg" alt=""/>
+  </div>
+ <span style="color:#59c4a3; font-weight:700">步骤 1</span> 与孩子一起读 <strong>Set C</strong> 的发音<br class="spc">
+ <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      重温发音<br class="spc">
+      <i class="wid-spc">a s m o d g t i p n b e h f l u c k <u>ck</u> r w j v y <u>sh</u> <u>th</u></i>
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      读出发音卡和挂图上字母的发音。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      确定孩子能迅速读出这些发音。
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      教导孩子以组合发音的方式练习这些词汇：<br class="spc">
+      wet, brush, rub, with, straps, trot, splash, fish, jump, ran, yes, went, shut, swish
+    </div>
+    <div class="body">•</div>
+    <div class="body">
+      划有底线的字母为二合字母，是一个单音。
+    </div>
+  </div>
+  <p></p>
+    
+  <span style="color:#59c4a3; font-weight:700">步骤 2</span> 阅读句子<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      当孩子能读出上列发音，又可读出发音组成的词汇时，便有能力读出一些简单句子。例如：<br class="spc">
+        1. It is a wet bru<u>sh</u>.<br class="spc">
+        2. Fi<u>sh</u> can swim and jump.<br class="spc">
+        3. A cat trots wi<u>th</u> his mum.<br class="spc">
+        4. A red bus and a van.<br class="spc">
+    </div>
+  </div>
+  <p></p>
+    
+  <div class="inline-item">
+      <img src="images/ch10/p20/011.jpg" alt=""/>
+  </div>    
+    
+   步骤 1 与孩子一起读 <b>Set D</b> 的发音<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      重温发音：<br class="spc">
+      <i class="wid-spc">a s m o d g t i p n b e h f l u c k <u>ck</u> r w j v y <u>sh</u> <u>th</u> z <u>ch</u> <u>qu</u> x <u>ng</u> <u>nk</u></i>
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      读出发音卡或挂图上字母的发音。
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      确定孩子能迅速读出这些发音。
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      教导孩子以组合发音方式练习这些词汇：<br class="spc">
+      <u>ch</u>in, <u>th</u>a<u>nk</u>s, zip, ba<u>ng</u>s, mu<u>ch</u>, dri<u>nk</u>, <u>th</u>in<u>k</u>, <u>th</u>i<u>ng</u>s, next, si<u>ng</u>, six, r<u>ing</u>, k<u>ing</u>, w<u>ink</u>, bli<u>nk</u>, sa<u>ng</u>, qua<u>ck</u><br class="spc">
+    </div>
+    <div class="body">• </div>
+    <div class="body">
+      划有底线的字母为二合字母，是一个单音。 
+    </div>
+  </div>  
+  <p></p>
+    
+  <span style="color:#59c4a3; font-weight:700">步骤 2</span> 阅读句子<br class="spc">
+  <div class= "indTxt">
+    <div class="body">• </div>
+    <div class="body">
+      当孩子能读出上列发音，又可读出发音组成的词汇时，便有能力读一些简单句子<br class="spc">
+      1. Dad sa<u>ng</u> with six k<u>ing</u>s.<br class="spc">
+      2. Mum has six r<u>ing</u>s.<br class="spc">
+      3. Ja<u>ck</u> has a hot dr<u>ink</u>.<br class="spc">
+      4. A fox lifts its <u>ch</u>in.<br class="spc">
+    </div>
+  </div>
+  <p></p>
+
+  <div class="inline-item">
+  
+  </div> 
+    
+  <div class="tips">
+    <div class="h3">给父母的小提示</div><br class="spc">
+  <div class= "indTxt A">
+    <div class="body">1.</div>
+    <div class="body">
+      利用 AI 笔学习发音。
+    </div>
+    <div class="body">2.</div>
+    <div class="body">
+      利用词汇卡帮助孩子学习组合发音，读出词汇。。
+    </div>
+    <div class="body">3.</div>
+    <div class="body">
+      即使只有十分钟时间，也要坚持每天一起阅读。
+    </div>
+    <div class="body">4.</div>
+    <div class="body">
+      多称赞，多鼓励，让孩子寓学习于娱乐。
+    </div>
+  </div>
+  <p></p>
+  父母的角色非常重要，孩子如果得到父母的鼓励和带领，学习起来事半功倍。不少简单的事情都可以在家进行，轻轻松松地帮助孩子建立良好的阅读能力。  
+  </div>
+  
+  </div>  
+  <div class="rule"></div>  
+  
+  
+<p></p>
+
+<div class="content">
+  <div class="text-box G"></div>
+</div>
+  
+</div>
+  
+<script>
+  
+//Script that highlights the links of the sidebar
+var header = document.getElementById("mySidenav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  awaitClose();
+  });
+}
+
+function awaitClose() {
+  setTimeout(function(){ closeNav(); }, 400);
+}  
+  
+//Script that open and close sidebar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  
+//Script that enlarge images
+function openImg(element) {
+  document.getElementById("fulImg").src = element.src;
+  document.getElementById("myNav").style.width = "100%";
+  document.body.style.height = "100%";
+  document.body.style.overflow = "hidden";
+}
+
+function closeImg() {
+  document.body.style.height = "auto";
+  document.body.style.overflow = "auto";
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+</body>
+</html>

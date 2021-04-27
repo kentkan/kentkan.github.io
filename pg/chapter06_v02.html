@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>| 第六章 | 解决问题系列</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="ui.css"> 
+<link rel="stylesheet" type="text/css" href="main.css"> 
+  
+<style>
+  .content {
+    align-items: center;
+  }
+  .header{
+    background: #67a63f;
+  }
+  .header a:nth-of-type(1){
+    background-color: #639841;
+  }
+  .h3 {
+    color: #639841;
+  }
+  .h3 span{
+    color: #000000;
+  }
+  .h3.r span{
+    background-color: #e72434;
+  }
+  .h4 {
+    color: #639841;
+    font-size: 1.2rem;
+  }
+  .h4 span{
+    color: #000000;
+  }
+  .sidenav .active, .sidenav .btn:hover {
+    background-color: #639841;;
+  }
+  .text-box{
+    background-color: #fcfcfb;
+  }
+  .gallery.type-A img{
+    width: 108px;
+  }
+  .image-box.A {
+    padding: 0;
+  } 
+  /*
+    Styles for tablet
+  */
+  @media only screen and (min-width: 600px) {
+  .content {
+      grid-auto-columns: 50% auto;
+    }
+  .image-box.A{
+    padding: 1em 3em;
+  }  
+  }
+</style>  
+  
+</head>
+
+<body>
+  
+<!-- It's a delimiter --> 
+<div id="overlay" class="overlay">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeImg()">     <img src="images/app/magn0.svg" alt=""/> 
+  </div>
+  <div class="img-box"  id="img-box"> 
+    <img src="images/app/empty.png" id="fulImg" alt=""/> 
+  </div>
+</div>  
+  
+<!-- It's a delimiter -->
+<div id="mySidenav" class="sidenav">
+  <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <img src="images/app/close.svg" alt=""/>   
+  </div>
+  <div class="til">Solve with Me</div>
+  <a href="#1" class="btn active">01 Ouch!</a>
+  <a href="#2" class="btn">02 Where are you, Mum?</a>
+  <a href="#3" class="btn">03 Nosebleeds at school</a>
+  <a href="#4" class="btn">04 Uh-oh, I dropped my lollipop!</a>
+  <a href="#5" class="btn">05 Late for school</a>
+  <a href="#6" class="btn">06 I forgot my art supplies!</a>
+  <a href="#7" class="btn">07 Ouch! I&apos;ve hurt myself!</a>
+  <a href="#8" class="btn">08 I don&apos;t have enough snacks to share!</a>
+  <a href="#9" class="btn">09 Spending your pocket money</a>
+  <a href="#10" class="btn">10 My shoe is broken!</a>
+  <a href="#11" class="btn">11 There&apos;s a caterpillar on me!</a>
+  <a href="#12" class="btn">12 My shirt is dirty!</a>
+  <a href="#13" class="btn">13 Careless friends</a>
+  <a href="#14" class="btn">14 I&apos;m too hot!</a>
+  <a href="#15" class="btn">15 Taking turns at the playground</a>
+  <div class="til">Socializing</div>    
+  <a href="#16" class="btn">01 Ouch! I&apos;ve hurt myself!</a>
+  <a href="#17" class="btn">02 You broke my crayon!</a>
+  <a href="#18" class="btn">03 Hey, that&apos;s my cupcake!</a>
+  <a href="#19" class="btn">09 04 We forgot Teddy!</a>
+  <a href="#20" class="btn">05 I want to go too!</a>
+  <a href="#21" class="btn">06 Rain, rain, go away</a>
+  <a href="#22" class="btn">07 Sharing is caring</a>
+  <a href="#23" class="btn">08 My beautiful painting</a>
+  <a href="#24" class="btn">09 Be quiet!</a>
+  <a href="#25" class="btn">10 Stinky time</a>
+  <a href="#26" class="btn">11 Shall we be friends?</a>
+  <a href="#27" class="btn">12 Lucky you!</a>
+  <a href="#28" class="btn">13 Time&apos;s up!</a>
+  <a href="#29" class="btn">14 Pay attention to me!</a>
+  <a href="#30" class="btn">15 Is it dinner time yet?</a>
+</div>
+  
+<!-- It's a delimiter --> 
+<div class="header"> 
+  <a onclick="openNav()">
+    <img src="images/app/menu.svg" alt=""/> 
+  </a>
+  <p class="title"><span id="fulTxt">| 第六章 |</span> 解决问题系列</p>
+  <a></a>
+</div>
+  
+<div class="wrapper">
+<p></p>
+<!-- It's a delimiter -->
+<div class="text-box-A body">30 本书分别围绕着 Socializing 及 Problem Solving 两个主题编著。藉着每个故事的小主角遇到不同的日常生活问
+题，说出正反两面的情绪会带来什么影响。当家长陪伴孩子阅读时，不但可以引导孩子学习书中的句式及词汇，
+更可藉着这个机会鼓励孩子以英语表达自己的感受呢！</div>
+<p></p>
+<div class="image-box A">
+  <img src="images/ch06/p02/001.jpg" alt=""/>
+</div>
+  
+  
+<!-- It's a delimiter --> 
+<div class="line-break" id="1"></div >
+<div class="h3">Problem Solving</div>
+<hr class="line">
+  
+<!-- It's a delimiter -->  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>01</span> Ouch!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p02/008.jpg" alt=""/> 
+        <img src="images/ch06/p02/012.jpg" alt=""/> 
+        <img src="images/ch06/p02/013.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子们精力无限，爱跑跑跳跳，碰撞在所难免。发生意外受伤时，孩子又不懂控制自己情绪及做出反应，或会哇哇大哭、或怪责别人，朋友之间的冲突往往由此发生。这个故事循序渐进地引导小朋友如何抒发情绪及解决问题。</p>
+  </div>
+</div>
+ 
+<!-- It's a delimiter -->    
+<div class="line-break" id="2"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>02</span> Where are you, Mum?</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p02/029.jpg" alt=""/> 
+        <img src="images/ch06/p02/014.jpg" alt=""/> 
+        <img src="images/ch06/p02/015.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">充满好奇心的孩子喜欢到处探索，但是，又未能充分了解自己的能力去知道有些事情没能力独立处理。有时候，无论父母怎样提醒，他们总喜欢独断独行。这个故事讲述小男孩迷路，正好用来教导孩子外出时要紧随父母，以及面对问题时如何冷静处理。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="3"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>03</span> Nosebleeds at school</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p02/030.jpg" alt=""/> 
+        <img src="images/ch06/p02/016.jpg" alt=""/> 
+        <img src="images/ch06/p02/017.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">看到孩子流鼻血，父母自然十分紧张。其实，大多数孩子流鼻血都是和不适当的抠鼻孔，或是鼻黏膜较薄有关。这时候父母应该保持镇静，正确地替孩子止鼻血。孩子感受到父母爱护的同时，亦会学习到父母解决问题的方法和态度。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="4"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>04</span> Uh-oh, I dropped my lollipop!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p03/031.jpg" alt=""/> 
+        <img src="images/ch06/p03/018.jpg" alt=""/> 
+        <img src="images/ch06/p03/019.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">除了玩具外，孩子最钟爱的便是糖果。他们可以为了丢掉一颗糖果在地上，与父母闹上大半天。父母可能会搞不清楚为何糖果有这么大的威力。但不管孩子有理无理，重要的是让孩子明白爸妈理解他们失去糖果的感受，然后引导他们怎样处理当下的情绪。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="5"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>05</span> Late for school</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p03/032.jpg" alt=""/> 
+        <img src="images/ch06/p03/020.jpg" alt=""/> 
+        <img src="images/ch06/p03/021.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">对于时间观念重的孩子，上学迟到就像天塌下来一样严重。他们担心被同学取笑、被老师责骂，因而觉得羞愧。这时候，父母在纾缓他们情绪的同时，也要为他们找出解决问题的方法，引导他们减低焦虑，这是我们身为父母要学习的一课。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="6"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>06</span> I forgot my art supplies!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p03/033.jpg" alt=""/> 
+        <img src="images/ch06/p03/022.jpg" alt=""/> 
+        <img src="images/ch06/p03/023.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子开始上幼儿园时，老师偶尔会刻意不通知家长，仅口头吩咐孩子翌日带一些用品回校，目的是考验小朋友的责任感和记忆力。但我们明白，孩子年纪尚小，不可能把每天三小时的课堂内容统统记在脑子里。当他们发现遗忘了重要的事情时，便会生气或抱怨。这时候，家长要让孩子知道解决当下的问题才是首要任务。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="7"></div >   
+<div class="rule"></div> 
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>07</span> Ouch! I&apos;ve hurt myself!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p03/034.jpg" alt=""/> 
+        <img src="images/ch06/p03/024.jpg" alt=""/> 
+        <img src="images/ch06/p03/025.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">有时候，孩子玩玩具时会一时得意忘形而把自己弄伤。因为感到痛楚，他们可能迁怒于玩具而做出发泄。这时候，家长除了关心孩子的伤势，更应该把握时机教导他们游戏时要注意的安全。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="8"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>08</span> I don&apos;t have enough snacks to share!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p03/035.jpg" alt=""/> 
+        <img src="images/ch06/p03/026.jpg" alt=""/> 
+        <img src="images/ch06/p03/027.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">乐于“分享”是一种美德，但孩子有时不懂得怎样与一大帮朋友分享。当他们未能一一答应其他小朋友的要求时，便会感到无助和不快。父母可借此故事让孩子理解分享的乐趣和秘诀。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="9"></div >   
+<div class="rule"></div> 
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>09</span> Spending your pocket money</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p04/036.jpg" alt=""/> 
+        <img src="images/ch06/p04/040.jpg" alt=""/> 
+        <img src="images/ch06/p04/041.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">理财对孩子来说是一门很抽象的学问，他们对“价值”这个概念十分模糊。父母可以借着这个小故事教导孩子如何适当地分配零用钱，以及学习理财的第一步。同时也让孩子知道爸妈工作辛苦，挣钱非常不容易！</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="10"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>10</span> My shoe is broken!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p04/055.jpg" alt=""/> 
+        <img src="images/ch06/p04/042.jpg" alt=""/> 
+        <img src="images/ch06/p04/043.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">令人尴尬的事情在成人世界常有发生，但有时候也会发生在小朋友身上。一旦出现了，生活经验尚浅的小朋友可能因为不懂得如何处理而感到彷徨。这个故事设计了一个小小的情境，给小读者一个思考空间，借此学习怎样处理突如其来的事情。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="11"></div >   
+<div class="rule"></div> 
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>11</span> There&apos;s a caterpillar on me!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p04/056.jpg" alt=""/> 
+        <img src="images/ch06/p04/044.jpg" alt=""/> 
+        <img src="images/ch06/p04/045.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">昆虫并不可怕，当然，对某些孩子来说谈不上可爱。要是孩子本身害怕小昆虫，那一条落在身上或手上的毛毛虫真的会把他吓得半死。如何能够保持镇定，向别人求救呢？那真的不容易啊！这个故事提供了小点子，让孩子学习怎样克服恐惧。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="12"></div >   
+<div class="rule"></div> 
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>12</span> My shirt is dirty!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p04/057.jpg" alt=""/> 
+        <img src="images/ch06/p04/046.jpg" alt=""/> 
+        <img src="images/ch06/p04/047.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">人本身天生爱美。孩子高高兴兴地穿上漂亮的衣服，可是被别人弄脏了，他们可能因而感到不开心，甚至愤怒。父母可能认为只是一件衣服而已，没什么大不了。但对孩子而言，那可是一件严重的事情。本书的一个简单故事教会孩子如何好好地处理自己的情绪。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="13"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>13</span> Careless friends</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p04/058.jpg" alt=""/> 
+        <img src="images/ch06/p04/048.jpg" alt=""/> 
+        <img src="images/ch06/p04/049.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">要学会顾己及人，对孩子来说是一门很深的学问，尤其是当他们玩得兴高采烈时。这个故事描述几个孩子到海滩堆沙堡，但是，一个朋友一不小心把沙粒弄到小男孩眼睛里。这时候，眼睛非常难受的小男孩应该怎样做呢？</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="14"></div >   
+<div class="rule"></div> 
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>14</span> I&apos;m too hot!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p05/059.jpg" alt=""/> 
+        <img src="images/ch06/p05/050.jpg" alt=""/> 
+        <img src="images/ch06/p05/051.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子们喜欢跑跑跳跳，尽管在家里也会弄得满头大汗。小朋友都不喜欢流汗那种黏黏的感觉，于是常常要求开空调。但是，作为父母的我们，又会因为怕他们着凉而拒绝。遇到这情况，正是一个好时机向孩子解释环保的重要性，并一起商量有没有其他方法代替空调。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="15"></div >   
+<div class="rule"></div>
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>15</span> Taking turns at the playground</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p05/060.jpg" alt=""/> 
+        <img src="images/ch06/p05/052.jpg" alt=""/> 
+        <img src="images/ch06/p05/053.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子天生爱玩，可是很多群体游戏需要等待，孩子可没这种耐性。耐性是需要学习的，更需要从小培养。排队轮候只是一个小例子，日常生活中可以教导孩子练习耐性的机会多的是！我们都知道，处事冷静的孩子比冲动的孩子收获更多，机会也更多！</p>
+  </div>
+</div>
+
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="16"></div >
+<div class="h3">Socializing</div>
+<hr class="line">  
+  
+<!-- It's a delimiter -->  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>01</span> Ouch! I&apos;ve hurt myself!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p05/061.jpg" alt=""/> 
+        <img src="images/ch06/p05/063.jpg" alt=""/> 
+        <img src="images/ch06/p05/064.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子天生好胜，无论玩什么游戏都渴望赢。但是，无人能百分百地场场胜利，孩子迟早会尝试到失败的滋味。为了帮助孩子建立“胜不骄、败不馁”的精神，要让他们明白胜负常有，并且要懂得欣赏胜出的朋友。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="17"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>02</span> You broke my crayon!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p05/062.jpg" alt=""/> 
+        <img src="images/ch06/p05/065.jpg" alt=""/> 
+        <img src="images/ch06/p05/066.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">除了玩具，能令小朋友爱不释手的便是文具。愿意跟别人分享自己文具的都是乖宝宝。不过，借出的文具一旦被弄坏，乖宝宝也可能会发脾气。发脾气当然不能解决问题，那么，父母可以怎样做呢？父母可通过这个故事教导孩子怎样平复愤怒的情绪，以及和朋友和好。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="18"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>03</span> Hey, that&apos;s my cupcake!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p06/067.jpg" alt=""/> 
+        <img src="images/ch06/p06/077.jpg" alt=""/> 
+        <img src="images/ch06/p06/078.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">重视家庭教育的父母经常教导宝宝对人要有礼貌，不可贪心。但是，宝宝有时遇上蛮不讲理的孩子，心里可能会质疑为什么有些小朋友的行为与自己不一样？当宝宝提出质疑，父母可能感到无奈，因为别人的孩子自己管不到。既然是这样，就让宝宝明白自己要先做好本份，就像书中主角那样，遇到不愉快事情，首先要冷静地把感受告诉对方，然后再解决问题。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="19"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>04</span> We forgot Teddy!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p06/068.jpg" alt=""/> 
+        <img src="images/ch06/p06/079.jpg" alt=""/> 
+        <img src="images/ch06/p06/080.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">很多孩子在成长期间对一些物品有依恋，尤其是陪伴着成长的玩具、布娃娃或是手绢、毛巾。孩子视之为玩伴，并能够给予他们安全感。所以，无论他们去到哪里，都喜欢带在身边。若是遗失了或忘记带着外出，父母应该怎么办呢？本书会给你们一些小点子。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="20"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>05</span> I want to go too!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p06/069.jpg" alt=""/> 
+        <img src="images/ch06/p06/081.jpg" alt=""/> 
+        <img src="images/ch06/p06/082.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子出生后，尤其是头两三年，小宝宝无时无刻都有父母陪伴。因此，在宝宝心中永远是三人世界。对宝宝来说，与父母分离是天大的事情！不过总有一天，宝宝要面对和学习与父母短暂分开。因此，父母必须要教导宝宝学习独处，还要使他们明白，父母的短暂离开并不代表不爱他们。父母回家后，如孩子还未入睡，别忘记给他一个亲吻和拥抱。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="21"></div >
+<div class="rule"></div>   
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>06</span> Rain, rain, go away</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p06/070.jpg" alt=""/> 
+        <img src="images/ch06/p06/083.jpg" alt=""/> 
+        <img src="images/ch06/p06/084.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">一早计划好的行程却因天雨被迫取消，确实令人扫兴。这时候，家长的反应往往直接影响孩子，父母正好趁此机会告诉孩子︰“无论天气怎样，爸妈总在你身边。天气虽然变坏，但我们也可以有不同的精彩节目啊！”乐观的父母才可以培养有正向思维的孩子。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="22"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>07</span> Sharing is caring</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p06/071.jpg" alt=""/> 
+        <img src="images/ch06/p06/085.jpg" alt=""/> 
+        <img src="images/ch06/p06/086.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">现今大多数的孩子可谓是幸福的一代，得到大人无微不至的照顾，物质又从不缺乏，几乎垂手可得。但太多的物质享受可能会使他们不懂珍惜，随意浪费。要使他们明白无私的分享和奉献，也是我们作为新一代父母的任务。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="23"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>08</span> My beautiful painting</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p07/072.jpg" alt=""/> 
+        <img src="images/ch06/p07/087.jpg" alt=""/> 
+        <img src="images/ch06/p07/088.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">小朋友说话坦率、直接、没有心机。但有时不知不觉间伤害了别人，自己也懵然不知。当我们教导孩子不要取笑别人时，同样要教导孩子听到一些使自己感到难过的话时，应该如何处理自己的情绪。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="24"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>09</span> Be quiet!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p07/073.jpg" alt=""/> 
+        <img src="images/ch06/p07/089.jpg" alt=""/> 
+        <img src="images/ch06/p07/090.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">孩子喜欢发表意见，跟人分享生活趣事，本来是值得鼓励的事情。但年纪尚小的孩子未能明白说话时如何尊重自己，尊重别人，同时也不懂得考虑场合和环境。作为家长的我们，便要向他们解释：“在不适当的时间、地方发言会令别人不开心啊！”</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="25"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>10</span> Stinky time</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p07/074.jpg" alt=""/> 
+        <img src="images/ch06/p07/091.jpg" alt=""/> 
+        <img src="images/ch06/p07/092.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">放屁虽然是正常不过的行为，但在社交场合，放屁太多似乎也是一件令人尴尬的事情。爸妈可以藉着书中小主角的故事与孩子讨论，如果相同的事情发生在自己身上时，应该怎样处理，并让他们知道放屁是生理现象，不需要怪责自己。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="26"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>11</span> Shall we be friends?</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p07/075.jpg" alt=""/> 
+        <img src="images/ch06/p07/093.jpg" alt=""/> 
+        <img src="images/ch06/p07/094.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">大多数孩子性格热情、主动，但也有些孩子比较慢热。因此，热情的宝宝主动认识新朋友时可能会碰上钉子，被拒的他可能觉得受到伤害，心情坏透。这时，父母要让他们明白，与不同性格的小朋友交往时，也要用不同的方法。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="27"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>12</span> Lucky you!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p07/076.jpg" alt=""/> 
+        <img src="images/ch06/p07/095.jpg" alt=""/> 
+        <img src="images/ch06/p07/096.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">在大抽奖环节落空了，未免令人失望。年纪小小的孩子，脸上更难掩失望之情。这时候，要他们落落大方地去恭贺大奖在手的朋友，可能有点儿难。但作为父母的我们，便要把握这种时刻去教导他们，疏导他们失望甚至嫉妒的情绪。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="28"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>13</span> Time&apos;s up!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p08/118.jpg" alt=""/> 
+        <img src="images/ch06/p08/121.jpg" alt=""/> 
+        <img src="images/ch06/p08/122.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">当孩子兴致勃勃的那一刻被叫停，难免有点儿扫兴，甚至产生负面的情绪。所以，在孩子进行活动前，可以与他约法三章，制定规矩、时间。最重要的是他们要明白，如果破坏了规矩、不守承诺，便要承担后果。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="29"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>14</span> Pay attention to me!</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p08/119.jpg" alt=""/> 
+        <img src="images/ch06/p08/123.jpg" alt=""/> 
+        <img src="images/ch06/p08/124.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">父母带孩子外出应酬时，有时与别人畅谈得兴致高昂，可能会忽略了孩子。孩子不明白成人谈话内容，又未能参与其中，未免感到沉闷，亦会有被忽略的感觉。如果聚会时间不算太长，图书可能是孩子最好的解闷方法。</p>
+  </div>
+</div>
+  
+<!-- It's a delimiter -->    
+<div class="line-break" id="30"></div >
+<div class="rule"></div>  
+<div class="content">
+  <div class="container">
+      <p class="h4"><span>15</span> Is it dinner time yet?</p>
+      <div class="gallery type-A"> 
+        <img src="images/ch06/p08/120.jpg" alt=""/> 
+        <img src="images/ch06/p08/125.jpg" alt=""/> 
+        <img src="images/ch06/p08/126.jpg" alt=""/> 
+      </div>
+    </div>
+  <div class="text-box D">
+    <p class="body">肚子不会骗人，肚饿的感觉叫人难以忍受。这个故事的女主角饿得肚子咕咕作响，但妈妈说仍要等待客人，怎么办？小女孩的情况可有千千万万个方法解决。爸妈可把握说故事的机会，教导孩子一个信念︰方法永远比问题多！</p>
+  </div>
+</div>
+<div class="rule"></div>      
+
+  
+<p></p>
+
+<div class="content">
+  <div class="text-box G"></div>
+</div>
+  
+</div>
+  
+<script>
+  
+//Script that highlights the links of the sidebar
+var header = document.getElementById("mySidenav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  awaitClose();
+  });
+}
+
+function awaitClose() {
+  setTimeout(function(){ closeNav(); }, 400);
+}  
+  
+//Script that open and close sidebar
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+  
+//Script that enlarge images
+function openImg(element) {
+  document.getElementById("fulImg").src = element.src;
+  document.getElementById("myNav").style.width = "100%";
+  document.body.style.height = "100%";
+  document.body.style.overflow = "hidden";
+}
+
+function closeImg() {
+  document.body.style.height = "auto";
+  document.body.style.overflow = "auto";
+  document.getElementById("myNav").style.width = "0%";
+}
+
+</script>
+</body>
+</html>

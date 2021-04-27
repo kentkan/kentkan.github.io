@@ -44,7 +44,7 @@ html, body, div, img {
   font-size: 1.2rem;
   font-style: normal;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .body span{
   color: #004898;
@@ -71,7 +71,7 @@ html, body, div, img {
   border: 0;
   box-shadow: 0 10px 10px -10px #bdc7ca inset;
 }
-div.rule {
+.rule {
   margin: 1.6em 0 1.1em;
   height: 1px;
   background: #dfdfdf;
@@ -109,17 +109,23 @@ div.rule {
 }
 .image-box{
   width: 100%;
+  padding: 1em;
 }
 .image-box img{
   width:100%;
   object-fit: cover;
 }
 .inline-item {
-  display: inline-block;
-  margin-top: 0.8em;
-}
-.inline-item img{
   width: 100%;
+  display: inline-block;
+  margin: 0.5em 0;
+}
+.inline-item img, .inline-item div{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.4em;
 }
 .gallery {
   display: grid;
@@ -249,6 +255,7 @@ div.rule {
   margin: 0 0 0 1em;
   border-radius: 0 0.5em 0.5em 0;
   min-height: 220px;
+  
 }
 .text-box-A.Clm2{
 column-count: 2;
@@ -279,11 +286,6 @@ column-gap: 1em;
 }
 .gallery.type-B {
   grid-template-rows: auto auto;
-}
-.gallery.type-B img:nth-child(1){
-  grid-column: 1/3;
-  grid-row: 1/3;
-  width: 202px;
 }
 .gallery.type-C img {
   width: 150px;
