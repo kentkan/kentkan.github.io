@@ -43,13 +43,16 @@
     grid-column-gap: 0.2em;
     font-size: 0.75em;
   }
+  .table.gry{
+    grid-auto-rows: minmax(5em, auto);
+  }
   .item {
     display:grid;
     align-items: center;
     text-align: center;
     color:#ffffff;
     background-color:#c9c6e3;
-    padding: 0.5em 0.2em;
+    padding: 0 0.2em;
   }
   .item.A { 
     background-color:#96d3d3;
@@ -223,7 +226,7 @@
 <hr class="line">
   
 <div class="clm-B">
-  <div class="table">
+  <div class="table gry">
   <div class="item gry">Converter No.<br>词汇卡</div>
   <div class="item gry">Vocabulary</div>
   <div class="item gry">字词</div> 
